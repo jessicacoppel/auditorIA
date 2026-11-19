@@ -1,0 +1,124 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Publicación & Contenido,11/11/2026 10:59:57,INC0159172,Cerrado,falso,Cambia de precio al agregar producto al carrito y no respeta el precio de promoción,"Carlos Daniel Gomez  de tienda 808 reporta el código: 664847  el cual se muestra en promoción $6799, sin embargo, al agregar al carrito, el precio cambio a $8599 y no muestra la oferta, por lo cual no se proceso la venta de manera correcta, favor de apoyar con este detalle.",Carlos Daniel Gomez Lopez,Lessly Deneth Aispuro Amador,Jose Maria Gomez Santos,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 18 minutos,,INC0158742,0,Interacción: IMS0049017,2,0,11/11/2026 10:59:57,11/11/2026 10:59:57,11/11/2026 12:18:16,14/11/2026 13:11:24,Calidad de Software,"Se ha copiado Notas de resolución del incidente principal: 
+Las ofertas no se reflejaban actualizadas en Salesforce.
+
+Solución: Se ejecutó una sincronización completa de precios (full) para cargar las ofertas vigentes de todos los SKUs de 1P.",,"11/11/2026 13:59:30 - Jose Maria Gomez Santos (Comentarios)
+Ya se muestra correctamente el precio del articulo, se adjuntan evidencias.
+
+11/11/2026 12:18:16 - Jose Javier Rodriguez Morales (Comentarios)
+Resuelto en función de la resolución del incidente principal. 
+
+11/11/2026 11:34:55 - Jose Maria Gomez Santos (Notas de trabajo)
+Hola, buen día
+Soy JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo jmaria.gomez@coppel.com.
+
+11/11/2026 11:03:36 - Lessly Deneth Aispuro Amador (Notas de trabajo)
+Reporta que cambia de precio al agregar al carrito.
+
+11/11/2026 10:59:57 - Lessly Deneth Aispuro Amador (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0049017"
+Publicación & Contenido,11/11/2026 11:26:59,INC0159166,Cerrado,falso,Cambia de precio al agregar al carrito.,"Se esta presentando detalle con algunos artículos que al momento de agregar al carrito de compra cambia el precio sin respetar la oferta, por tal motivo se solicita el apoyo para la revisión de este detalle. 
+Código 666769.",Gricelda Montserrat Torres Hernandez,Rafael Guadalupe Quijada Estrella,Jose Maria Gomez Santos,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,3 Horas 1 minuto,,INC0158742,0,Interacción: IMS0049008,1,0,11/11/2026 10:59:37,11/11/2026 10:59:37,11/11/2026 14:01:44,14/11/2026 14:11:19,Infraestructura y Conectividad,"Causa raíz:
+No se identificó explícitamente un causa raíz específica en los detalles proporcionados. El problema reportado fue un cambio de precio al agregar artículos al carrito, relacionado al folio INC0158742. 
+
+Pasos de la resolución:
+- Se revisó el detalle del artículo y se confirmó que el precio se muestra correctamente, adjuntando evidencias como parte de la validación (actividad del 11/11/2026 14:01:00).
+- El agente JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail asumió el seguimiento del incidente, proporcionando contacto para consultas adicionales.",,"11/11/2026 14:01:00 - Jose Maria Gomez Santos (Comentarios)
+Ya se muestra correctamente el precio del articulo, se adjuntan evidencias.
+
+11/11/2026 11:35:13 - Jose Maria Gomez Santos (Notas de trabajo)
+Hola, buen día
+Soy JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo jmaria.gomez@coppel.com.
+
+11/11/2026 11:04:13 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Se relaciona a folio INC0158742
+
+11/11/2026 11:03:48 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Cambia de precio al agregar al carrito, se relaciona a folio INC0158742
+
+11/11/2026 10:59:37 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0049008"
+Publicación & Contenido,13/11/2026 09:03:59,INC0185612,Cerrado,falso,Cambian de precio al agregar al carrito.,"95551042 CLAUDIA ELENA HERRERA <JEFE CAT> de tienda 7721 reporta códigos que al momento de agregar al carrito cambian de precio y no toman el de oferta de manera general. 
+Los SKU's son 848212, 877517, 849146 y de MKP 749265924. Favor de apoyar. Se anexan imágenes con evidencia.",Claudia Elena Herrera Cova,Lessly Deneth Aispuro Amador,Jose Maria Gomez Santos,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,35 minutos,,,1,,1,0,13/11/2026 08:24:41,13/11/2026 08:17:42,13/11/2026 11:35:43,16/11/2026 12:11:58,Infraestructura y Conectividad,"Problema:
+Los precios cambian al agregar los productos al carrito.
+
+Causa:
+Los precios no se habían actualizado correctamente en el sitio.
+
+Pasos de la resolución:
+ • Realizar un barrido de precios mediante una carga Full de Price.
+ • Corregir los precios que no se habían actualizado.
+ • Validar la incidencia en el sitio y confirmar que ya no se presenta.",,"14/11/2026 10:03:14 - Claudia Elena Herrera Cova (Comentarios)
+Buenos días, se esta presentando de nuevo la incidencia que cambia el precio al agrera el articulo al carrito. Anexo evidencia
+
+13/11/2026 11:33:47 - Jose Maria Gomez Santos (Comentarios)
+Listo, se realizo lo solicitado , favor de validar y confirmar la solución.
+
+Cualquier duda se puede comunicar a mi chat: jmaria.gomez@coppel.com 
+
+13/11/2026 11:33:10 - Jose Maria Gomez Santos (Comentarios)
+EL día de hoy por la mañana se presento una incidencia relacionada con precios que no se habian actualizado , se realizo un barrido de precios con una carga Full de Price para que se corrigieran , se intento replicar el error reportado y ya no se presenta en el sitio, se adjunta evidencia.
+
+13/11/2026 10:46:19 - Jose Maria Gomez Santos (Comentarios)
+Hola, buen día
+Soy JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo jmaria.gomez@coppel.com.
+
+13/11/2026 10:18:22 - Claudia Elena Herrera Cova (Comentarios)
+Me apoyan seguimos con la misma falla que cambia el precio al agregar al carrito"
+Publicación & Contenido,13/11/2026 11:36:55,INC0188742,Cerrado,falso,Cambian de precio al agregar al carrito.,"90537528 Diana Kristel Brito Cruz de tienda 234 reporta códigos que al momento de agregar al carrito cambian de precio y no toman el de oferta de manera general.  Se valido con sku 54731104, 750124001, de forma general con todos los articulos.",Diana Kristel Brito Cruz,Christian Neriz Burgos,Jose Maria Gomez Santos,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 17 minutos,,INC0185612,0,,0,0,13/11/2026 11:08:49,13/11/2026 11:06:17,13/11/2026 12:23:17,16/11/2026 13:11:10,Infraestructura y Conectividad,"Problema:
+Los precios cambian al agregar artículos al carrito.
+
+Causa:
+Los precios no se habían actualizado correctamente en el sitio.
+
+Pasos de la resolución:
+ • Realizar un barrido de precios mediante una carga Full de Price.
+ • Validar nuevamente el sitio para confirmar que el error ya no se presenta.
+ • Adjuntar evidencia de la corrección aplicada.",,"13/11/2026 12:23:39 - Jose Maria Gomez Santos (Comentarios)
+Listo, se realizo lo solicitado , favor de validar y confirmar la solución.
+
+Cualquier duda se puede comunicar a mi chat: jmaria.gomez@coppel.com 
+
+13/11/2026 12:20:26 - Jose Maria Gomez Santos (Comentarios)
+EL día de hoy por la mañana se presento una incidencia relacionada con precios que no se habian actualizado , se realizo un barrido de precios con una carga Full de Price para que se corrigieran , se intento replicar el error reportado y ya no se presenta en el sitio, se adjunta evidencia.
+
+13/11/2026 11:38:39 - Jose Maria Gomez Santos (Comentarios)
+Hola, buen día
+Soy JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo jmaria.gomez@coppel.com.
+
+13/11/2026 11:33:48 - Jose Maria Gomez Santos (Comentarios)
+Comentario copiado del incidente principal: Listo, se realizo lo solicitado , favor de validar y confirmar la solución.
+
+Cualquier duda se puede comunicar a mi chat: jmaria.gomez@coppel.com 
+
+13/11/2026 11:33:12 - Jose Maria Gomez Santos (Comentarios)
+Comentario copiado del incidente principal: EL día de hoy por la mañana se presento una incidencia relacionada con precios que no se habian actualizado , se realizo un barrido de precios con una carga Full de Price para que se corrigieran , se intento replicar el error reportado y ya no se presenta en el sitio, se adjunta evidencia."
+Publicación & Contenido,13/11/2026 17:09:05,INC0197581,Cerrado,falso,código cambia de precio,"90032093 tienda 1186 presenta detalle con el código 242414 ya que al agregarlo al carrito cambia de precio, favor de apoyar",Annhjara Ivvone Gonzalez Magana,Karla Melissa Gerardo Moreno,Jose Maria Gomez Santos,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Carga Diaria Plataformas Digitales,Falla en el precio del producto,Falla,verdadero,2 Horas 24 minutos,,,0,,1,0,13/11/2026 15:58:24,13/11/2026 15:53:15,13/11/2026 18:18:13,16/11/2026 19:11:13,Infraestructura y Conectividad,"Problema:
+El código 242414 cambia de precio al agregarse al carrito.
+
+Causa:
+El precio no se había actualizado por caché del sitio y por cambios de oferta aplicados al SKU.
+
+Pasos de la resolución:
+ • Se actualizó el caso.
+ • Se verificó que el precio ya se mostrara correctamente.
+ • Se confirmó que el SKU tenía cambios de oferta aplicados durante el día.
+ • Se indicó refrescar la caché del navegador si el precio incorrecto persistía.
+ • Se replicó la incidencia y se validó que todo quedara correcto.",,"13/11/2026 18:15:57 - Jose Maria Gomez Santos (Comentarios)
+Ya se muestra correctamente el precio, por temas de cache del sitio no se habia actualizado, durante el día este sku se le asignaron cambios de ofertas lo que cual hace que el precio se viera afectado , refrescar cache de navegador si es que aun aparece el precio incorrecto, se replico y se muestra todo  ok.
+
+13/11/2026 17:10:17 - Jose Maria Gomez Santos (Comentarios)
+Hola, buen día
+Soy JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo jmaria.gomez@coppel.com.
+
+
+13/11/2026 17:09:05 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza
+
+13/11/2026 15:58:30 - Karla Melissa Gerardo Moreno (Notas de trabajo)
+Propuesto como incidente grave porque existe una coincidencia con una de las reglas de incidente grave: Proponer Incidente Mayor"

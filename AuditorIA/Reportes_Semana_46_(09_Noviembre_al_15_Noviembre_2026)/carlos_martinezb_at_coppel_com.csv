@@ -1,0 +1,392 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Módulos Coppel.com en Tienda,06/11/2026 09:10:58,INC0110769,Cerrado,falso,No cambia el pago quincenal agregando pago inicial,"90413919 JUAN CARLOS MORALES <ASESOR DE VENTAS> de tienda 6509 se comunica reportando problemas al querer comprar la moto sku 522215 con cliente 526362677 ya que seleccionando 24 meses sin pago inicial le da un pago quincenal de $1646 al mes de $3292 pero al colocar pago inicial de $10000 no baja el pago quincenal, se anexa evidencia, ip 10.42.242.54",Juan Carlos Morales Esteban,Christian Neriz Burgos,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,7 Horas 44 minutos,,,0,,1,0,05/11/2026 18:58:32,05/11/2026 18:48:18,06/11/2026 18:32:34,09/11/2026 19:11:15,Calidad de Software,"Causa raíz:
+El problema no se resolvió al intentar generar la venta nuevamente, esperando un fix por parte del equipo de desarrollo, como se mencionó en la actividad del 06/11/2026 a las 18:08:55 donde se confirmó que el caso estaba siendo revisado.
+
+Pasos de la resolución:
+- Revisar el caso y confirmar que ya estaba reportado previamente, tal como se indicó en la actividad del 06/11/2026 a las 18:08:55.
+- Comunicar que el equipo de desarrollo está revisando el caso y ha confirmado que se está trabajando en una solución, según lo detallado en la misma actividad.
+- Recomendar volver a intentar generar la venta desde el comienzo para actualizar las instrucciones de pago temporalmente, como se sugirió en la actividad mencionada.
+- Indicar que se debe esperar el fix proporcionado por el equipo de desarrollo, información que también se incluyó en la actividad del 06/11/2026 a las 18:08:55.","Los campos de los montos no se actualizan correctamente, a veces las quincenas, lo que provoca que de cara al cliente no queden actualziados ciertos valores en la vista de crédito coppel.","06/11/2026 18:08:55 - Carlos Alberto Martinez Barrera (Comentarios)
+Revisando el caso, se detecta que ya se tiene reportado este incidente. 
+Actualmente se tiene una cadena de correo donde el equipo de desarrollo, nos confinó que ya se está revisando el caso. Sin embargo, de momento solamente se puede volver a intentar generar desde el comienzo la venta para que se actualicen las instrucciones de pago.
+
+Solo queda esperar el fix para este problema.
+
+
+
+06/11/2026 09:39:54 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝"
+Módulos Coppel.com en Tienda,10/11/2026 13:05:37,INC0116342,Cerrado,falso,Aparece que no se tiene existencia,"90253188 NATALI RAMIREZ <EJECUTIVO CAT> Aparece que no se tiene existencia de los artículos le aparece que no se tiene existencia o por ejemplo los sku 130798  y 818957 , favor de verificarlo",Natali Ramirez Machado,Alvaro Francisco Sobampo Moreno,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,16 Horas 44 minutos,,,0,,1,0,06/11/2026 14:06:46,06/11/2026 13:54:17,10/11/2026 14:39:14,13/11/2026 15:11:13,Calidad de Software,"Causa raíz:
+El problema fue detonado por una incidencia tras una liberación de cadena de suministro, afectando los servicios de disponibilidad de inventario. 
+
+Pasos de la resolución:
+- Se realizaron múltiples hotfix el día anterior para estabilizar los servicios afectados.
+- Los servicios de disponibilidad de inventario se estabilizaron, resolviendo el error de falta de inventario.",,"10/11/2026 14:38:37 - Carlos Alberto Martinez Barrera (Comentarios)
+Si el problema persiste, apoyame creando una nueva solicitud y MUY importante, adjuntar el correo utilizado en la prueba.
+
+10/11/2026 14:37:44 - Carlos Alberto Martinez Barrera (Comentarios)
+Se revisó el caso y el problema fue detonado por una incidencia tras una liberación de cadena de suministro.
+El día de ayer se realizaron multiples correctios dado que se afectaron los servicios de la disponibilidad de inventario.
+
+Ayer por la noche se estabilizaron los servicios y ya no debería presentar el error de falta de inventario.
+
+Quiero aclarar que el primer error que se reporta es totalmente diferente y son casos separados , por lo que no se deben mezclar en el folio, multiples errores, acorde al manual de buenas prácticas de incidentes y solicitudes.
+
+10/11/2026 14:30:10 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝
+
+10/11/2026 13:05:37 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza categoría
+
+10/11/2026 11:44:23 - Jose Maria Gomez Santos (Comentarios)
+Se intento replicar localizándose en la region de ciudad de mexico con codigo postal 10020
+
+09/11/2026 12:48:24 - Natali Ramirez Machado (Comentarios)
+Buen día. ¿Hay algún avance con este caso? Hoy presentamos un caso mas en el que no deja avanzar con el artículo. Sku 886044.
+
+06/11/2026 18:43:10 - Jose Maria Gomez Santos (Comentarios)
+Hola, buen día
+Soy JOSE MARIA GOMEZ SANTOS del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo jmaria.gomez@coppel.com.
+Saludos!"
+Módulos Coppel.com en Tienda,09/11/2026 09:19:16,INC0118917,Cerrado,falso,Abonos e interés no cambian con pago inicial diferente,"Colaborador de tienda 800 realiza cotización para venta a cliente 527783072 en IP 10.32.228.50 con pago inicial solicitado por cliente de 33,000 y le arroja abono por $2680, al ingresar pago inicial menor, el abono sigue igual. Se desea validar si es detalle de página que no cambie dependiendo de la cantidad pagada al realizar la compra.",Juan Alberto Soto Ramirez,Julio Cesar Jimenez Garcia,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problema con pago inicial,Pago inicial,verdadero,13 Horas 32 minutos,,,1,,2,0,06/11/2026 17:21:40,06/11/2026 17:12:03,10/11/2026 14:44:30,13/11/2026 15:11:05,Calidad de Software,"Causa raíz:
+La funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel no se actualizaba correctamente al ingresar un pago inicial menor, debido a problemas en la implementación de ajustes en procesos como com-generate-order, com-cj-process-order y com-generate-marketplace-order. 
+
+Pasos de la resolución:
+- Se implementaron liberaciones progresivas en la versión 8.3.5 del APP Front (Android) para mejorar la funcionalidad de pago inicial, incluyendo la épica DIRDIGP01-11304.
+- Se realizaron ajustes en servicios como com-generate-order, ecommercegenerarventainicial y com-cj-process-order para manejar el prorrateo de pagos iniciales (ej. DIRDIGP01-103541, DIRDIGP01-103542).
+- Se corrigieron errores en la asignación y almacenamiento del pago inicial por orden logística (ej. DIRDIGP01-104434).
+- Se actualizaron procesos en el checkout de Coppel.com para considerar el pago inicial prorrateado (ej. DIRDIGP01-100342).",,"10/11/2026 14:41:41 - Carlos Alberto Martinez Barrera (Comentarios)
+Se revisó el caso y se detectó que el día lunes se realizaron las siguientes liberaciones que solventan lo reportado, relacionado con la falta de actualización de datos en el checkout, en métodos de pago, con pago Crédito Coppel, por lo que ya no debería suceder.
+
+🚀📱🔛COMUNICADO DE LIBERACIÓN APP FRONT📱🔛🚀 
+El 7/11/2026 durante el día se implementó:
+  
+📌Chapter Leads APP
+Versión: 8.3.5
+Tipo de liberación: progresiva
+Épicas👑: DIRDIGP01-5653 - Mejoras App
+DIRDIGP01-11304 - Habilitación de la funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel.
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/60e6b9ea3b985f10d5908cfaefc29257/params/query/chg_model%3D007c4001c343101035ae3f52c1d3aeb2/selected-tab-index/0/selected-tab/id%3Dcllamw8nu019t3b7s2xj330yv%5Eroute%3Dchange-overview,
+     • Tickets📝: AppGallery: https://coppelopsprod.service-now.com/coppel?id=ticket&table=sc_req_item&sys_id=d1cf94e72f905b50f47e658fcea4e383&view=sp, PlayStore: https://coppelopsprod.service-now.com/coppel?id=ticket&table=sc_req_item&sys_id=e5fd98232f905b50f47e658fcea4e366&view=sp, 
+     • Cards🧾: DIRDIGP01-112564 - Android Comunicación Promociones Buen Fin 2026
+DIRDIGP01-112030 - Android | Nueva funcionalidad front end para envío de pago inicial
+Wiki🔷: AwAesw
+Servicios 🔵: App Front Android
+
+
+🚀💻🔙COMUNICADO DE LIBERACIÓN .COM (SERVICIOS)💻🔙🚀 
+El 6/11/2026 por la noche se implementó:
+  
+📌Crédito Coppel
+Épicas👑: DIRDIGP01-11304 - Habilitación de la funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel.
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/92bbc7c72f509f507c670a8e8ea4e34e,
+     • Tickets📝: PROD: https://coppelopsprod.service-now.com/coppel?id=sc_request&is_new_order&table=sc_request&sys_id=8006845f2f1cd7500041dc1bcfa4e39e, 
+     • Cards🧾: DIRDIGP01-103541 - Ajuste en com-generate-order para considerar el pago inicial prorrateado
+DIRDIGP01-100342 - Error en GenerarVentaInicial- lstParametricos es null
+DIRDIGP01-103542 - Ajuste en com-cj-process-order para procesar pagos iniciales prorrateados
+DIRDIGP01-104210 - Ajuste en com-generate-marketplace-order para manejo de pago inicial prorrateado
+DIRDIGP01-104434 - Ajuste en ecommercemporderconfirmation para asignación y almacenamiento del pago inicial por orden logística
+Wiki🔷: tICZsw
+Servicios 🔵: com-generate-order, ecommercegenerarventainicial, com-cj-process-order, com-generate-marketplace-order, ecommercemporderconfirmation
+
+
+📌Crédito Coppel
+Épicas👑: DIRDIGP01-56864 - Integrar Orquestador de Pagos en venta Retail Coppel.com
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/ab097e472f585f507c670a8e8ea4e3ed,
+     • Tickets📝: PROD: https://coppelopsprod.service-now.com/coppel?id=sc_request&is_new_order&table=sc_request&sys_id=131cc8172f98df507c670a8e8ea4e3e0, https://coppelopsprod.service-now.com/coppel?id=sc_request&is_new_order&table=sc_request&sys_id=08ded30b2f589f507c670a8e8ea4e351, 
+     • Cards🧾: DIRDIGP01-86982 - Adecuar ds-com-orful-customerorder para consumir y exponer el nuevo campo del canónico
+DIRDIGP01-86971 - Incorporar y persistir nuevo campo de Medios de Pago en el canónico de Customer Order
+Wiki🔷: CYCXsw
+Servicios 🔵: com-generate-order, ds-com-orful-customerorder
+
+
+🚀💻🔛COMUNICADO DE LIBERACIÓN .COM FRONT💻🔛🚀 
+El 6/11/2026 por la noche se implementó:
+  
+📌Crédito Coppel
+Épicas👑: DIRDIGP01-11304 - Habilitación de la funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel.
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/6b2efe872fd85f507c670a8e8ea4e37a,
+     • Tickets📝: PROD: https://coppelopsprod.service-now.com/now/sow/record/interaction/ac6a87032f5897500041dc1bcfa4e3c6, https://coppelopsprod.service-now.com/now/sow/record/interaction/627613472f5c97500041dc1bcfa4e327, https://coppelopsprod.service-now.com/now/sow/record/interaction/83dd36872f1497500041dc1bcfa4e3ba, 
+     • Cards🧾: DIRDIGP01-99542 - Total a crédito no se actualiza al aplicar o modificar el pago inicial en compras Marketplace
+DIRDIGP01-103540 - Ajuste de capa de composición de orden para prorrateo de pago inicial adicional
+DIRDIGP01-100339 - Pago inicial mayor al total de contado de la compra en Marketplace
+DIRDIGP01-85515 - Medición | Corregir envío de dineroElectronico en evento metodosPagoCC
+DIRDIGP01-85523 - Medición | Corregir evento de Pago total para productos Marketplace
+Wiki🔷: F4CZsw
+Servicios 🔵: coppel-ecomm-web-checkout, coppel-service-subgrahp-checkout, coppel_sfcc
+
+09/11/2026 09:29:39 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝"
+Módulos Coppel.com en Tienda,09/11/2026 09:19:49,INC0120819,Cerrado,falso,Abonos e interés no cambian con pago inicial diferente,"realiza cotización para venta a cliente No brinda el número de cliente en IP 10.43.1.33 - 10.43.1.42 con pago inicial solicitado por cliente de 50,000y le arroja abono por $4877, al ingresar pago inicial en 0 , el abono sigue igual. Se desea validar si es detalle de página que no cambie dependiendo de la cantidad pagada al realizar la compra.",Uriel Villa Garcia,Blanca Elizabeth Ojeda Guzman,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Tienda,Tienda,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problema con pago inicial,Pago inicial,verdadero,11 Horas 44 minutos,,INC0118917,0,,2,0,06/11/2026 20:15:53,06/11/2026 20:09:06,10/11/2026 14:44:30,13/11/2026 15:11:19,Calidad de Software,"Se ha copiado Notas de resolución del incidente principal: Causa raíz:
+La funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel no se actualizaba correctamente al ingresar un pago inicial menor, debido a problemas en la implementación de ajustes en procesos como com-generate-order, com-cj-process-order y com-generate-marketplace-order. 
+
+Pasos de la resolución:
+- Se implementaron liberaciones progresivas en la versión 8.3.5 del APP Front (Android) para mejorar la funcionalidad de pago inicial, incluyendo la épica DIRDIGP01-11304.
+- Se realizaron ajustes en servicios como com-generate-order, ecommercegenerarventainicial y com-cj-process-order para manejar el prorrateo de pagos iniciales (ej. DIRDIGP01-103541, DIRDIGP01-103542).
+- Se corrigieron errores en la asignación y almacenamiento del pago inicial por orden logística (ej. DIRDIGP01-104434).
+- Se actualizaron procesos en el checkout de Coppel.com para considerar el pago inicial prorrateado (ej. DIRDIGP01-100342).",,"10/11/2026 14:44:30 - Carlos Alberto Martinez Barrera (Comentarios)
+Resuelto en función de la resolución del incidente principal. 
+
+10/11/2026 14:41:42 - Carlos Alberto Martinez Barrera (Comentarios)
+Comentario copiado del incidente principal: Se revisó el caso y se detectó que el día lunes se realizaron las siguientes liberaciones que solventan lo reportado, relacionado con la falta de actualización de datos en el checkout, en métodos de pago, con pago Crédito Coppel, por lo que ya no debería suceder.
+
+🚀📱🔛COMUNICADO DE LIBERACIÓN APP FRONT📱🔛🚀 
+El 7/11/2026 durante el día se implementó:
+  
+📌Chapter Leads APP
+Versión: 8.3.5
+Tipo de liberación: progresiva
+Épicas👑: DIRDIGP01-5653 - Mejoras App
+DIRDIGP01-11304 - Habilitación de la funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel.
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/60e6b9ea3b985f10d5908cfaefc29257/params/query/chg_model%3D007c4001c343101035ae3f52c1d3aeb2/selected-tab-index/0/selected-tab/id%3Dcllamw8nu019t3b7s2xj330yv%5Eroute%3Dchange-overview,
+     • Tickets📝: AppGallery: https://coppelopsprod.service-now.com/coppel?id=ticket&table=sc_req_item&sys_id=d1cf94e72f905b50f47e658fcea4e383&view=sp, PlayStore: https://coppelopsprod.service-now.com/coppel?id=ticket&table=sc_req_item&sys_id=e5fd98232f905b50f47e658fcea4e366&view=sp, 
+     • Cards🧾: DIRDIGP01-112564 - Android Comunicación Promociones Buen Fin 2026
+DIRDIGP01-112030 - Android | Nueva funcionalidad front end para envío de pago inicial
+Wiki🔷: AwAesw
+Servicios 🔵: App Front Android
+
+
+🚀💻🔙COMUNICADO DE LIBERACIÓN .COM (SERVICIOS)💻🔙🚀 
+El 6/11/2026 por la noche se implementó:
+  
+📌Crédito Coppel
+Épicas👑: DIRDIGP01-11304 - Habilitación de la funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel.
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/92bbc7c72f509f507c670a8e8ea4e34e,
+     • Tickets📝: PROD: https://coppelopsprod.service-now.com/coppel?id=sc_request&is_new_order&table=sc_request&sys_id=8006845f2f1cd7500041dc1bcfa4e39e, 
+     • Cards🧾: DIRDIGP01-103541 - Ajuste en com-generate-order para considerar el pago inicial prorrateado
+DIRDIGP01-100342 - Error en GenerarVentaInicial- lstParametricos es null
+DIRDIGP01-103542 - Ajuste en com-cj-process-order para procesar pagos iniciales prorrateados
+DIRDIGP01-104210 - Ajuste en com-generate-marketplace-order para manejo de pago inicial prorrateado
+DIRDIGP01-104434 - Ajuste en ecommercemporderconfirmation para asignación y almacenamiento del pago inicial por orden logística
+Wiki🔷: tICZsw
+Servicios 🔵: com-generate-order, ecommercegenerarventainicial, com-cj-process-order, com-generate-marketplace-order, ecommercemporderconfirmation
+
+
+📌Crédito Coppel
+Épicas👑: DIRDIGP01-56864 - Integrar Orquestador de Pagos en venta Retail Coppel.com
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/ab097e472f585f507c670a8e8ea4e3ed,
+     • Tickets📝: PROD: https://coppelopsprod.service-now.com/coppel?id=sc_request&is_new_order&table=sc_request&sys_id=131cc8172f98df507c670a8e8ea4e3e0, https://coppelopsprod.service-now.com/coppel?id=sc_request&is_new_order&table=sc_request&sys_id=08ded30b2f589f507c670a8e8ea4e351, 
+     • Cards🧾: DIRDIGP01-86982 - Adecuar ds-com-orful-customerorder para consumir y exponer el nuevo campo del canónico
+DIRDIGP01-86971 - Incorporar y persistir nuevo campo de Medios de Pago en el canónico de Customer Order
+Wiki🔷: CYCXsw
+Servicios 🔵: com-generate-order, ds-com-orful-customerorder
+
+
+🚀💻🔛COMUNICADO DE LIBERACIÓN .COM FRONT💻🔛🚀 
+El 6/11/2026 por la noche se implementó:
+  
+📌Crédito Coppel
+Épicas👑: DIRDIGP01-11304 - Habilitación de la funcionalidad de pago inicial en ventas de productos Marketplace con Crédito Coppel.
+¿Con esta liberación se finaliza tu iniciativa? No
+     • RFCs🌐: https://coppelopsprod.service-now.com/now/sow/record/change_request/6b2efe872fd85f507c670a8e8ea4e37a,
+     • Tickets📝: PROD: https://coppelopsprod.service-now.com/now/sow/record/interaction/ac6a87032f5897500041dc1bcfa4e3c6, https://coppelopsprod.service-now.com/now/sow/record/interaction/627613472f5c97500041dc1bcfa4e327, https://coppelopsprod.service-now.com/now/sow/record/interaction/83dd36872f1497500041dc1bcfa4e3ba, 
+     • Cards🧾: DIRDIGP01-99542 - Total a crédito no se actualiza al aplicar o modificar el pago inicial en compras Marketplace
+DIRDIGP01-103540 - Ajuste de capa de composición de orden para prorrateo de pago inicial adicional
+DIRDIGP01-100339 - Pago inicial mayor al total de contado de la compra en Marketplace
+DIRDIGP01-85515 - Medición | Corregir envío de dineroElectronico en evento metodosPagoCC
+DIRDIGP01-85523 - Medición | Corregir evento de Pago total para productos Marketplace
+Wiki🔷: F4CZsw
+Servicios 🔵: coppel-ecomm-web-checkout, coppel-service-subgrahp-checkout, coppel_sfcc
+
+09/11/2026 09:29:40 - Carlos Alberto Martinez Barrera (Comentarios)
+Comentario copiado del incidente principal: Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝
+
+09/11/2026 09:19:48 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza grupo de asignación"
+Módulos Coppel.com en Tienda,15/11/2026 18:10:34,INC0227723,Resuelto,verdadero,Facturada sin factura,buen día nos apoyan con el pedido 314122648 ya que está cómo facturado pero no refleja factura,Karla Paola Martinez Ramirez,Karla De Jesus Valenzuela Iribe,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,,1,0,15/11/2026 15:21:46,15/11/2026 15:20:27,15/11/2026 23:20:57,,Calidad de Software,"Problema:
+La orden 314122648 aparecía facturada, pero no reflejaba la factura.
+
+Causa:
+Se presentó un problema en modernización con el encolamiento de las facturas.
+
+Pasos de la resolución:
+ • Se aumentó la capacidad de procesamiento.
+ • Se restablecieron los servicios a la normalidad.
+ • Se confirmó que la orden ya se encontraba facturada.",,"15/11/2026 23:20:37 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen dia. La orden ya se encuentra facturda.
+
+Se tuvo un problema en modernización con el encolamiento de las facturas. 
+
+Se realizó un aumento de capacidad de procesamiento y los servicios volvieron a la normalidad.
+
+15/11/2026 18:46:04 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝"
+Módulos Coppel.com en Tienda,15/11/2026 18:10:52,INC0226383,Resuelto,verdadero,lentitud en Coppel.con en catálogo,"90032885 MARCO ANTONIO GUEVARA <GERENTE TITULAR> reporta que en la tienda las micros de catálogo están lentas al buscar artículos y realizar ventas, IP 10.41.169.42",Marco Antonio Guevara Morales,Alvaro Francisco Sobampo Moreno,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla en buscador,Falla,verdadero,0 segundos,,,0,,0,0,15/11/2026 14:05:50,15/11/2026 13:59:26,15/11/2026 18:59:43,,Infraestructura y Conectividad,"Problema:
+La tienda reportó lentitud al buscar artículos y realizar ventas en el catálogo de Coppel.com.
+
+Causa:
+La lentitud no se reprodujo en la sesión revisada y se atribuyó a la red de la tienda o a las IPS afectadas.
+
+Pasos de la resolución:
+ • Se revisaron las sesiones de las 16:00 y las 18:00.
+ • Se confirmó que la IP reportada no presentó lentitud.
+ • Se recomendó verificar la red de la tienda y las IPS afectadas.",,"15/11/2026 18:59:08 - Carlos Alberto Martinez Barrera (Comentarios)
+Este detalle no es relativo a coppel o sus servicios, se recomienda que se verifique la red de la tienda y/o IPS afectadas.
+
+15/11/2026 18:57:10 - Carlos Alberto Martinez Barrera (Comentarios)
+Se revisó la sesión de las 6 y las 4 de la tarde y la IP reportad no presenta lentitud.
+
+15/11/2026 18:52:33 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝"
+Módulos Coppel.com en Tienda,15/11/2026 18:10:00,INC0227904,Resuelto,verdadero,Facturada sin factura,"0225394 Jose Luis Hernandez Jimenez de tienda 178 se comunica reportando problemas con las venta sen línea ya que menciona se estan generando los ticket en 0, al validar la orden 314807265 se refleja facturada sin factura, favor de validar.",Jose Luis Hernandez Jimenez,Christian Neriz Burgos,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com en Tienda,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,Interacción: IMS0064615,1,0,15/11/2026 15:31:47,15/11/2026 15:31:47,15/11/2026 23:18:12,,Calidad de Software,"Problema:
+Las ventas en línea generaron tickets en cero y la orden quedó facturada sin factura.
+
+Causa:
+Se presentó un aumento masivo de compras que encoló órdenes en la facturación.
+
+Pasos de la resolución:
+ • Se realizaron sesiones nocturnas para aumentar la capacidad de los servicios en 400%.
+ • Se redujo el número de órdenes encoladas a 0.
+ • Se permitió la facturación de todas las órdenes.
+ • Se anexó evidencia del ajuste realizado.",,"15/11/2026 23:16:25 - Carlos Alberto Martinez Barrera (Comentarios)
+día.
+Se tuvo un aumento masivo en el número de compras recibidas este buen fin, produciendo un encolamiento de órdenes en la facturación.
+
+Hoy por la noche se tuvo una serie de sesiones donde se buscó aumentar la capacidad de los servicios en un 400%, reduciendo  el número de órdenes encoladas a 0 y permitiendo que se facturaran todas.
+
+Se anexa evidencia
+
+
+
+
+15/11/2026 18:44:40 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝
+
+15/11/2026 15:34:11 - Christian Neriz Burgos (Notas de trabajo)
+0225394 Jose Luis Hernandez Jimenez de tienda 178 se comunica reportando problemas con las venta sen línea ya que menciona se estan generando los ticket en 0, al validar la orden 314807265 se refleja facturada sin factura, favor de validar.
+
+15/11/2026 15:31:47 - Christian Neriz Burgos (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0064615"
+Módulos Coppel.com en Tienda,13/11/2026 17:10:04,INC0198619,Cerrado,falso,Transacción no autorizada,"90387501 Martin Alan Flores Leal de tienda 7699 se comunica reportando problemas para pagar con tarjeta en Coppel.com , indica que es de manera general con todas las tarjetas y todas las micro, se validó en la ip 10.49.217.43, terminación 6901 por $5,799",Martin Alan Flores Leal,Christian Neriz Burgos,Carlos Alberto Martinez Barrera,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla en métodos  de pago,Falla,verdadero,1 hora 44 minutos,,,0,Interacción: IMS0057367,1,0,13/11/2026 16:37:33,13/11/2026 16:37:33,13/11/2026 18:21:52,16/11/2026 19:11:23,Capacidad de Sistemas,"Problema:
+El cliente presentó fallas para pagar con tarjeta en Coppel.com.
+
+Causa:
+El caso de TDC corresponde a un incidente distinto al seguimiento de rendimiento ya resuelto.
+
+Pasos de la resolución:
+ • Se informó que los incidentes relacionados con el seguimiento de reporte TI INC0194428 ya fueron solucionados.
+ • Se indicó levantar un ticket nuevo si la falla con TDC continúa presentándose.
+ • Se solicitó adjuntar el número de cliente o el correo utilizado en la compra con error.
+ • Se notificó que, sin esos datos, el ticket será finalizado nuevamente.",,"13/11/2026 18:21:14 - Carlos Alberto Martinez Barrera (Comentarios)
+El tema con TDC es un caso diferente, favor de levantar un ticket nuevo si se sigue presentando, adjuntando Número de cliente o Correo utilizado en la compra con error, sin estos dos datos, será finalizado el ticket nuevamente.
+
+13/11/2026 18:19:45 - Carlos Alberto Martinez Barrera (Comentarios)
+Los incidentes relacionados al seguimiento de reporte TI INC0194428, ya fueron solucionados
+
+Mensaje de cierre:
+🟢 CIERRE DE INCIDENTE ALTO TICKET   #INC0189718
+
+
+🏢 Torre: Omnicanal
+
+
+🚫 Servicio afectado: bs-downpaymentamount y pm-be-checkout
+
+
+⚠️Criticidad: Alto
+
+
+⏳ SLA de Atención: 4 hrs.
+
+
+⚙️ Incidente: Se tiene problemas al finalizar ventas en canales digitales, se tiene afectación en el performance (tiempos de respuesta) del cálculo de pago inicial, se presenta latencia en servicios de pago inicial y base de datos durante el Buen Fin. 
+
+
+
+
+🛠️ Acciones Realizadas
+
+
+
+
+-Evaluaron el comportamiento de las conexiones en la base de datos, el uso de balanceadores y las métricas de latencia en los servicios.
+-Reinicio de Servicios y aumento de conexiones en Pago Inicial
+-servicios reiniciados:
+api-certificacionessystem
+api-configcentraltiendasystem
+api-consultarfactorsystem 
+-Aumento de conexiones a base de datos centralfinanciero por pod:
+api-certificacionessystem, se aumenta de 30 a 35 conexiones por pod
+api-configcentraltiendasystem, se aumenta de 4 a 6 conexiones por pod
+api-consultarfactorsystem, se aumenta de 40 a 6 conexiones por pod
+-Aprobación de PRs con los cambios en las properties. Cambio de service connection para el envío de la imagen al ambiente productivo.
+
+
+
+
+
+
+
+
+
+
+🛠️ Plan de Acción / Solución
+🛠️  Despliegue y mitigación: Aplicaron hotfix y ajustes en las configuraciones de conexiones para los servicios de certificación
+
+
+🛠️ Confirmaron la reducción en la latencia y en el número de conexiones en la base de datos, observando una recuperación favorable en el flujo de ventas.
+
+
+
+
+🛠️  El equipo señaló la importancia de documentar los aprendizajes y definir un playbook para futuras ejecuciones de alto estrés (como temporadas de alta demanda).
+
+
+Impacto Final: Servicio restablecido en ventas en canales digitales
+
+
+🕐 Hora Solución: 13/11/2026 12:27 pm  hr CLCN
+
+
+
+
+⏳ Duración de Incidente: 1 hrs 27 min
+
+13/11/2026 17:41:56 - Carlos Alberto Martinez Barrera (Comentarios)
+Buen día. 👋
+
+Mi nombre es Carlos Martínez, del equipo de Operaciones IT para Retail. He recibido tu solicitud y a partir de este momento me encargaré de darle seguimiento personal para resolverla lo antes posible. 🚀
+
+Te mantendré informado sobre cualquier avance, a la brevedad. Quedo a su disposición si necesita agregar algún detalle adicional. 🤝
+
+13/11/2026 16:41:17 - Christian Neriz Burgos (Notas de trabajo)
+90387501 Martin Alan Flores Leal de tienda 7699 se comunica reportando problemas para pagar con tarjeta en Coppel.com , indica que es de manera general con todas las tarjetas y todas las micro, se validó en la ip 10.49.217.43, terminación 6901 por $5,799
+
+13/11/2026 16:37:33 - Christian Neriz Burgos (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0057367"

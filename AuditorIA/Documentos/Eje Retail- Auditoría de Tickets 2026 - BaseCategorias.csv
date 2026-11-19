@@ -1,0 +1,39 @@
+>,CRITERIOS DE EVALUACIÓN,,,,,,,,,,,
+,Prioridad Correcta,Oferta Correcta,Comunicación Adecuada con el Cliente,SLA Correcto,Asignación de Cliente - Agente,Cambios de Estado Correctos,Relaciones de Tickets,,Porcentaje menos por tickets en backlog más de 3 semanas,,SEMÁFORO DE CUMPLIMIENTO,
+,20%,20%,10%,20%,5%,10%,15%,,10%,,,
+,,,,,,,,,,,Distintivo,Cumplimiento en % total
+,,,,,,,,,,,,100% a 95%
+,,,,,,,,,,,,94.99% a 85%
+,,,,,,,,,,,,84.99% a 0%
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,CATEGORIA,,,SUBCATEGORIAS,,,,,,,,20
+,Prioridad Correcta,,,No se asignó la prioridad correcta,,,,,,,,20
+,Oferta Correcta,,,No se asignó la oferta adecuada,,,,,,,,10
+,Comunicación Adecuada con el Cliente,,,No se incluyó saludo inicial,,,,,,,,20
+,,,,No se incluyó saludi inicial dentro del tiempo establecido,,,,,,,,5
+,,,,No se agregó comentario de justificación de cambio de oferta,,,,,,,,
+,,,,No se agregó estatus o avance del día,,,,,,,,10
+,,,,No respondió las inquietudes/preguntas del cliente,,,,,,,,15
+,,,,No colocó una solución clara y completa,,,,,,,,
+,,,,No se especificó en la solución que la solución raíz será buscada en FP,,,,,,,,
+,,,,No ejecuta una estructura adecuada en el seguimiento,,,,,,,,
+,,,,El agente no dió seguimiento después que el ticket fue solucionado,,,,,,,,
+,,,,No se incluyó evidencia del análisis y diagnostico,,,,,,,,
+,SLA Correcto,,,No se cumplió con el SLA establecido para el ticket,,,,,,,,
+,Asignación de Cliente-Agente,,,El agente funge como cliente al mismo tiempo,,,,,,,,
+,Cambios de Estado Correctos,,,"Pausó el ticket ""Esperando por Entidad externa"" sin comentario de justificación",,,,,,,,
+,,,,"Pausó el ticket ""Esperando por Entidad Interna"" sin una justificación válida",,,,,,,,
+,,,,"Se soluciono el folio, sin haber sido asignado anteriormente",,,,,,,,
+,,,,"No se cambió estatus a ""Esperando una fecha""",,,,,,,,
+,,,,"Pausó el ticket ""Esperando al cliente"" sin solicitar información válida",,,,,,,,
+,Relaciones de Tickets,,,No relacionó con el folio problema correspondiente,,,,,,,,
+,,,,No relacionó con ticket de Incidente Mayor,,,,,,,,
+,,,,No relacionó con ticket relacionado para llegar a la solución,,,,,,,,
+,,,,No se relacionó el ticket de incidencia generado debido a los hallazgos de la agenda operativa,,,,,,,,
+,,,,No relacionó con ticket padre,,,,,,,,
+,Otras Observaciones,,,,,,,,,,,
+,Sin Hallazgos,,,,,,,,,,,
+,,,,,,,,,,,,
+,,https://sites.google.com/coppel.com/operaciones-it/repositorio/historial-auditoria-tickets?pli=1&authuser=1,,,,,,,,,,

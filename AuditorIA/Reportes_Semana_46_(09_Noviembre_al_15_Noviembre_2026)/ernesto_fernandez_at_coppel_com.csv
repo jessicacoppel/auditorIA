@@ -1,0 +1,52 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Publicación & Contenido,09/11/2026 11:28:16,INC0133353,Cerrado,falso,cambio de precio en coppel.com,"Fatima Del Rosario, reporta detalle con venta en línea al cual arroja precio normal y no de oferta. Del código 660655. IP: 10.42.253.42:50077",Fatima Del Rosario Toledo Rodriguez,Daniela Fernanda Villegas Fierros,Ernesto Yael Fernandez Esparza,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Precios Incorrectos,Falla,verdadero,1 hora 50 minutos,,INC0134096,0,Interacción: IMS0042952,2,0,09/11/2026 10:05:30,09/11/2026 10:05:30,09/11/2026 12:50:10,12/11/2026 13:11:13,Gestión Operativa y Humana,"Causa raíz:
+Falla en el precio mostrado en el sitio coppel.com, donde se observaban precios normales en lugar de los de oferta para el código 660655. 
+
+Pasos de la resolución:
+- Se realizó una carga full de precios para adecuar los valores mostrados en el sitio, resolviendo la discrepancia identificada.",,"09/11/2026 12:48:21 - Ernesto Yael Fernandez Esparza (Comentarios)
+Buen día se hizo una carga full de precios, para adecuar los precios que se veian mal en el sitio, se anexa evidencia al momento de agregar al carrito muestra los mismos precios respetandolo, favor de validar, cualquier duda o sugerencia:ernesto.fernandez@coppel.com
+
+09/11/2026 12:47:01 - Ernesto Yael Fernandez Esparza (Notas de trabajo)
+Buen día, soy Ernesto Fernández del área de Operaciones TI - Eje Retail y te estaré apoyando en el seguimiento de este folio.
+Si presentas cualquier duda o comentario hazlo llegar a mi correo ernesto.fernandez@coppel.com.
+Saludos!
+
+09/11/2026 10:08:48 - Daniela Fernanda Villegas Fierros (Notas de trabajo)
+Falla en precio
+
+09/11/2026 10:05:30 - Daniela Fernanda Villegas Fierros (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0042952"
+Publicación & Contenido,09/11/2026 11:28:49,INC0133857,Cerrado,falso,Cambia de precio al agregar al carrto,"90375830 DYLAN JESUS LOPEZ <EJECUTIVO CAT> reporta que al generar venta no respeta el precio de contado al agregar al carrito, sku 229604, 816826 y 848212
+10.32.228.97
+10.32.228.93
+10.32.228.84
+merali12@gmail.com
+fer_secre8@gmail.com
+alfregutierrez81@gmail.com",Dylan Jesus Lopez Meza,Isbeth Alvarado Arambula,Ernesto Yael Fernandez Esparza,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Precios Incorrectos,Falla,verdadero,1 hora 43 minutos,,INC0134096,0,,1,0,09/11/2026 10:44:44,09/11/2026 10:32:29,09/11/2026 12:43:42,12/11/2026 13:11:23,Gestión Operativa y Humana,"Causa raíz:
+Los precios no se respetaban al agregar al carrito para los SKU 229604, 816826 y 848212, lo que generaba discrepancias en la venta. 
+
+Pasos de la resolución:
+- Se realizó una carga full de precios para adecuar los valores mostrados en el sitio, asegurando que los precios se respeten al agregar al carrito.",,"10/11/2026 09:12:48 - Dylan Jesus Lopez Meza (Comentarios)
+Buen día, ya nos permitió avanzar con normalidad, no se han presentado casos similares. ¡Gracias!
+
+09/11/2026 12:42:06 - Ernesto Yael Fernandez Esparza (Comentarios)
+Buen día se hizo una carga full de precios, para adecuar los precios que se veian mal en el sitio, se anexa evidencia al momento de agregar al carrito muestra los mismos precios respetandolo, favor de validar, cualquier duda o sugerencia:ernesto.fernandez@coppel.com
+
+09/11/2026 12:41:51 - Ernesto Yael Fernandez Esparza (Notas de trabajo)
+Buen día se hizo una carga full de precios, para adecuar los precios que se veian mal en el sitio, se anexa evidencia al momento de agregar al carrito muestra los mismos precios respetandolo, favor de validar, cualquier  duda o sugerencia:ernesto.fernandez@coppel.com
+
+09/11/2026 12:37:27 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 11:55:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Nota de trabajo copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos.
+
+
+
+09/11/2026 11:15:04 - Dylan Jesus Lopez Meza (Comentarios)
+Hola buenos días, anexo al ticket diferentes casos que han surgido en estos momentos. (La primera imagen es el precio que se oferta en el portal, la segunda corresponde a cómo el precio cambia en el carrito)"

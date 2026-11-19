@@ -1,0 +1,590 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Módulos Coppel.com en Tienda,13/11/2026 16:08:51,INC0197816,Cerrado,falso,Al hacer una compra a crédito marca todo de contado,"96020733 Fernanda ivone Sotos // tienda 397 se comunica reportando problemas con 27499804  en ventas a crédito  ya que le marca todo de pago inicial, validando cliente no refleja situación especial y cuenta con puntualidad A, favor de validar la situación",Fernanda Ivonne Soto Perez,America Montoya Valenzuela,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Muebles,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 18 minutos,,INC0189249,0,,0,0,13/11/2026 16:07:23,13/11/2026 16:04:57,13/11/2026 17:23:38,16/11/2026 18:11:16,Calidad de Software,"Problema:
+La venta a crédito se registra como pago inicial total.
+
+Causa:
+El cliente no refleja una situación especial y cuenta con puntualidad A.
+
+Pasos de la resolución:
+ • Validar la situación reportada en ventas a crédito para la tienda 397.
+ • Revisar el comportamiento de la cuenta asociada al crédito 27499804.
+ • Confirmar el estado del cliente y su puntualidad A.",,"13/11/2026 17:23:38 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Mensaje de cierre:
+🟢 CIERRE DE INCIDENTE ALTO TICKET   #INC0189718
+
+
+🏢 Torre: Omnicanal
+
+
+🚫 Servicio afectado: bs-downpaymentamount y pm-be-checkout
+
+
+⚠️Criticidad: Alto
+
+
+⏳ SLA de Atención: 4 hrs.
+
+
+⚙️ Incidente: Se tiene problemas al finalizar ventas en canales digitales, se tiene afectación en el performance (tiempos de respuesta) del cálculo de pago inicial, se presenta latencia en servicios de pago inicial y base de datos durante el Buen Fin. 
+
+
+
+
+🛠️ Acciones Realizadas
+
+
+
+
+-Evaluaron el comportamiento de las conexiones en la base de datos, el uso de balanceadores y las métricas de latencia en los servicios.
+-Reinicio de Servicios y aumento de conexiones en Pago Inicial
+-servicios reiniciados:
+api-certificacionessystem
+api-configcentraltiendasystem
+api-consultarfactorsystem 
+-Aumento de conexiones a base de datos centralfinanciero por pod:
+api-certificacionessystem, se aumenta de 30 a 35 conexiones por pod
+api-configcentraltiendasystem, se aumenta de 4 a 6 conexiones por pod
+api-consultarfactorsystem, se aumenta de 40 a 6 conexiones por pod
+-Aprobación de PRs con los cambios en las properties. Cambio de service connection para el envío de la imagen al ambiente productivo.
+
+
+
+
+
+
+
+
+
+
+🛠️ Plan de Acción / Solución
+🛠️  Despliegue y mitigación: Aplicaron hotfix y ajustes en las configuraciones de conexiones para los servicios de certificación
+
+
+🛠️ Confirmaron la reducción en la latencia y en el número de conexiones en la base de datos, observando una recuperación favorable en el flujo de ventas.
+
+
+
+
+🛠️  El equipo señaló la importancia de documentar los aprendizajes y definir un playbook para futuras ejecuciones de alto estrés (como temporadas de alta demanda).
+
+
+Impacto Final: Servicio restablecido en ventas en canales digitales
+
+
+🕐 Hora Solución: 13/11/2026 12:27 pm  hr CLCN
+
+
+
+
+⏳ Duración de Incidente: 1 hrs 27 min
+✒️ Informa: Kenia Nieblas
+
+13/11/2026 16:15:57 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema."
+Módulos Coppel.com en Tienda,14/11/2026 16:11:04,INC0214178,Resuelto,verdadero,Transaccion no autorizada,"Jorge Eduardo Cabal Lagunes de tienda 7698  solicita apoyo con venta en línea al momento de pagar la compra la compra de cliente 90001 correo lady_ntg@hotmail.com, le arroja ""Transacción no autorizada"" al pagar con tarjeta de crédito.
+IP 10.49.128.125",Jorge Eduardo Cabal Lagunes,Mitzu Yarili Gastelum Arce,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,INC0210773,0,Interacción: IMS0061369,1,0,14/11/2026 15:14:03,14/11/2026 15:14:03,15/11/2026 13:52:40,,Calidad de Software,"Problema:
+La compra en línea no pudo completarse por un rechazo de pago con tarjeta.
+
+Causa:
+Cybersource rechazó la transacción por antifraude.
+
+Pasos de la resolución:
+ • Validar que el servicio antifraude Cybersource rechazó la transacción.
+ • Confirmar que un reintento permitió finalizar la orden 314691568.",,"15/11/2026 13:52:40 - Jessica Giovana Garcia Gomez (Notas de trabajo)
+Buen día, el mensaje de ""Transacción no autorizada"" se detona cuando el servicio de antifraude ""Cybersource"" rechaza la transacción. Pero se detecta que en un reintento el cliente finaliza con la orden 314691568
+
+15/11/2026 13:51:39 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, el mensaje de ""Transacción no autorizada"" se detona cuando el servicio de antifraude ""Cybersource"" rechaza la transacción. Pero se detecta que en un reintento el cliente finaliza con la orden 314691568 favor de validar, para duda se puede comunicar también al correo o chat de Google jessica.garcia@coppel.com
+
+14/11/2026 16:13:45 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+14/11/2026 15:20:37 - Mitzu Yarili Gastelum Arce (Notas de trabajo)
+Transacción no autorizada
+
+14/11/2026 15:14:03 - Mitzu Yarili Gastelum Arce (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0061369"
+Módulos Coppel.com en Tienda,15/11/2026 09:13:05,INC0219354,Resuelto,verdadero,No permite finalizar compra | Coppel.com,"Guadalupe Zarahi Gomez Flores tienda 1476 IP 10.42.230.43
+
+Reporta que no le permite finalizar compra en línea a cliente 630774404, ya que le marca transacción no autorizada",Guadalupe Zarahi Gomez Flores,Karla De Jesus Valenzuela Iribe,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,Interacción: IMS0062804,1,0,14/11/2026 20:59:59,14/11/2026 20:59:59,15/11/2026 16:35:29,,Calidad de Software,"Problema:
+El cliente no pudo finalizar la compra en línea por una transacción no autorizada.
+
+Causa:
+Cybersource rechazó la transacción por antifraude.
+
+Pasos de la resolución:
+ • Informar al cliente que el mensaje de «Transacción no autorizada» se genera cuando Cybersource rechaza la operación.
+ • Validar que, en un reintento, el cliente logró finalizar la compra con la orden 314569207.",,"15/11/2026 16:35:13 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, el mensaje de ""Transacción no autorizada"" se detona cuando el servicio de antifraude ""Cybersource"" rechaza la transacción. Pero se detecta que en un reintento el cliente finaliza con la orden 314569207
+
+15/11/2026 09:54:27 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+14/11/2026 21:02:19 - Karla De Jesus Valenzuela Iribe (Notas de trabajo)
+No permite finalizar compra
+
+14/11/2026 20:59:59 - Karla De Jesus Valenzuela Iribe (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0062804"
+Módulos Coppel.com en Tienda,09/11/2026 09:15:44,INC0131102,Cerrado,falso,Algo salió mal. Intente más tarde.,"Colaborador de tienda 7721 solicita apoyo con venta a cliente 551408481. Al momento de ingresar número de cliente y fecha de nacimiento, le arrajo mensaje ""Algo salió mal. Intente más tarde"". Esto solo ha ocurrido con este cliente. Favor de validar detalle. IP 10.32.228.27",Alan Gustavo Marizcal Madrigal,Julio Cesar Jimenez Garcia,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,6 Horas 16 minutos,,,0,,1,0,08/11/2026 19:22:42,08/11/2026 19:17:53,09/11/2026 17:16:26,12/11/2026 18:11:01,Calidad de Software,"Buen día, se detecta que e incidente se trató de una intermitencia, se recomienda realizar un reintento, favor de validar y para dudas también se puede comunicar al correo o chat de Google jessica.garcia@coppel.com",,"09/11/2026 17:13:29 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, se detecta que e incidente se trató de una intermitencia, se recomienda realizar un reintento, favor de validar y para dudas también se puede comunicar al correo o chat de Google jessica.garcia@coppel.com
+
+09/11/2026 09:23:08 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, mi nombre es Jessica y les estaré apoyando en la revisión de este incidente, le estaré comentando actualizaciones, favor de continuar al pendiente, cualquier duda relacionada se puede comunicar también al correo o Chat de Google Jessica.garcia@coppel.com"
+Módulos Coppel.com en Tienda,09/11/2026 09:17:37,INC0122394,Cerrado,falso,Algo salió mal. Intenta de nuevo más tarde.,"96712368 ITZEL MONTSERRAT ARRIAGA <GERENTE TITULAR> de tienda 567 solicita apoyo para realizar venta a cliente 701674611  con correo pliegoaraceli164@gmail.com. y código 750082395 debido a que el al momento de agregar los datos de pago arroja el error ""Algo salió mal. Intenta de nuevo más tarde."". Favor de apoyar. Se borró cache y se actualizaron directivas pero el error pereciste.",Itzel Montserrat Arriaga Bartolon,Lessly Deneth Aispuro Amador,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,7 Horas,,,0,,1,0,07/11/2026 10:54:56,07/11/2026 10:52:21,09/11/2026 18:00:04,12/11/2026 18:11:01,Calidad de Software,"Buen día, se detecta que se espiró el token de Salesforce 
+error code: authorization-error, message: An error occurred fetching sfcc access token
+Se recomienda intentar nuevamente, favor de validar, para dudas se puede comunicar también al correo o chat de Google jessica.garcia@coppel.com",,"09/11/2026 17:32:18 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, se detecta que se espiró el token de Salesforce 
+error code: authorization-error, message: An error occurred fetching sfcc access token
+Se recomienda intentar nuevamente, favor de validar, para dudas se puede comunicar también al correo o chat de Google jessica.garcia@coppel.com
+
+09/11/2026 09:24:16 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, mi nombre es Jessica y les estaré apoyando en la revisión de este incidente, le estaré comentando actualizaciones, favor de continuar al pendiente, cualquier duda relacionada se puede comunicar también al correo o Chat de Google Jessica.garcia@coppel.com"
+Módulos Coppel.com en Tienda,09/11/2026 09:16:59,INC0123262,Cerrado,falso,No carga información de método de pago.,"92945491 CAROLINA YAMILETTE ALDACO <JEFE CAT> de tienda 7721 solicita apoyo con el cliente #490723063 correo YARYMAR_03P@HOTMAIL.COM quien intenta generar la compra de 42 artículos de ropa y al momento de agregar los datos de su crédito la pantalla se queda cargando,  no arroja información para agregar dinero electrónico y no se activa el botón de continuar. Favor de apoyar. IP 10.32.228.32 
+La ciudad de entrega es: OAXACA, OAXACA",Carolina Yamilette Aldaco Coronel,Lessly Deneth Aispuro Amador,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,6 Horas 23 minutos,,,0,,1,0,07/11/2026 12:10:58,07/11/2026 12:06:57,09/11/2026 17:23:11,12/11/2026 18:11:14,Calidad de Software,"Buen día, se detecta que e incidente se trató de una intermitencia, se recomienda realizar un reintento, favor de validar y para dudas también se puede comunicar al correo o chat de Google jessica.garcia@coppel.com",,"09/11/2026 17:22:44 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, se detecta que el incidente se trató de una intermitencia, se recomienda realizar un reintento, favor de validar y para dudas también se puede comunicar al correo o chat de Google jessica.garcia@coppel.com
+
+09/11/2026 09:24:00 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, mi nombre es Jessica y les estaré apoyando en la revisión de este incidente, le estaré comentando actualizaciones, favor de continuar al pendiente, cualquier duda relacionada se puede comunicar también al correo o Chat de Google Jessica.garcia@coppel.com"
+Módulos Coppel.com en Tienda,09/11/2026 18:13:39,INC0141338,Cerrado,falso,ocurrió un problema intenta de nuevo,"90427533 NEIVY CAROLINA VEGA <EJECUTIVO CAT> reporta que no le permite finalizar la compra ya que le aparece el mensaje ocurrió un problema intenta de nuevo es con el cliente 90001 ALDO CESAR GARZA ELIZONDO correo alcegarza@gmail.com y los sku 
+Reloj Casio para Mujer LQ-139AMV-1B3LW Negro.
+🔢 SKU: 710725
+🏷️ Precio: $399
+Reloj Casio Unisex MQ-24-1B3LL Negro.
+🔢 SKU: 710709
+🏷️ Precio: $399
+Playera de Cuello Redondo Gris Puma Mass Merchants para Hombre Talla: G.
+🔢 SKU: 182420
+🏷️ Precio: $137
+Playera Polo CAT Café para Hombre Talla: G.
+🔢 SKU: 136312
+🏷️ Precio: $165
+Playera de Cuello Redondo Negra Ford para Hombre Talla: G. (2 piezas).
+🔢 SKU: 144324
+🏷️ Precio: $119
+Tenis Adidas Ih4276 Blanco Hombre 27.5cm.
+🔢 SKU: 748001637
+🏷️ Precio: $540
+Al verificar los sku en bodega si se tiene existencia favor de verificarlo",Neivy Carolina Vega Nunez,Alvaro Francisco Sobampo Moreno,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,6 Horas 29 minutos,,,0,,1,0,09/11/2026 18:08:18,09/11/2026 17:43:53,10/11/2026 16:13:03,13/11/2026 17:11:17,Calidad de Software,"Causa raíz:
+El incidente se trató de una intermitencia relacionada con un error de autorización al obtener el token de acceso de Salesforce, lo que impidió finalizar la compra. 
+
+Pasos de la resolución:
+- Recomendar al usuario realizar un reintento de la compra después de borrar caché y datos de navegación.
+- Sugerir contactar al correo jessica.garcia@coppel.com o usar el chat de Google para recibir apoyo directo en caso de persistencia del problema.",,"10/11/2026 16:12:33 - Jessica Giovana Garcia Gomez (Comentarios)
+error code: authorization-error, message: An error occurred fetching sfcc access token""
+input: {1}
+level: ""info""
+message: ""❌ Exit with error""
+resolver: ""getBasket""
+
+
+10/11/2026 16:11:53 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, el token de la sesión del Salesforce expiró, se recomienda reintentar la compra pero antes se debe borrar cache y datos de navegación. Favor de validar en caso de seguir presentando el problema favor de comunicarse por medio de chat de Google al correo jessica.garcia@coppel.com para apoyarle directamente
+
+09/11/2026 20:26:28 - Neivy Carolina Vega Nunez (Comentarios)
+Se volvió a intentar y sigue apareciendo igual, se borraron datos antes de realizar el nuevo intento, adjunto evidencia.
+
+09/11/2026 18:31:41 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, se detecta que e incidente se trató de una intermitencia, se recomienda realizar un reintento, favor de validar y para dudas también se puede comunicar al correo o chat de Google jessica.garcia@coppel.com"
+Módulos Coppel.com en Tienda,14/11/2026 16:52:47,INC0200781,Resuelto,verdadero,Cliente quiere realizar una compra en coppel.com y huellas no le agarran y ya la habia registrado como cliente digital sin ningun problema,90150296 Laura Yoselin Mendoza Reyes de tienda 1248 cliente 675244951 se comunica reportando problemas con las huellas de los clientes en todos los catálogo de su tienda.,Laura Yoselin Mendoza Reyes,Christian Neriz Burgos,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com en Tienda,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,56 minutos,,,0,Interacción: IMS0057850,1,0,13/11/2026 18:03:32,13/11/2026 18:03:32,14/11/2026 17:15:49,,Calidad de Software,"Problema:
+La cliente no puede finalizar una compra en coppel.com porque la captura de huella falla.
+
+Causa:
+El problema se identificó al finalizar la compra, no en el registro ni en la captura de huella.
+
+Pasos de la resolución:
+ • Se revisó la solicitud por parte del equipo Cliente Digital.
+ • Se confirmó que la operación de registro y captura de huella funciona correctamente.",,"14/11/2026 17:15:49 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, se revisó el incidente y se detecta que la huella del cliente no coincide, en este caso es necesario actualizar los biométricos del cliente en tienda. Favor de validar, para dudas se puede comunicar también al correo o chat de Google jessica.garcia@coppel.com
+
+14/11/2026 09:59:43 - Yamel America Calderon Navarro (Comentarios)
+Se ha revisado su solicitud por parte del equipo Cliente Digital, la operacion de registro y captura de huella funciona correctamente, el problema radica al finalizar compra, por tal motivo se cambia de categoria para que el equipo correspondiente analice el incidente.
+
+13/11/2026 18:27:03 - Yamel America Calderon Navarro (Comentarios)
+Mi nombre es Yamel Calderon y estaré dando seguimiento a su solicitud.
+
+En este momento estamos revisando la información y te mantendremos informado(a) sobre el avance. Nuestro objetivo es darte una solución lo antes posible. Te notificaremos cualquier actualización por este medio.
+
+YAMEL AMERICA CALDERON NAVARRO
+Cliente Digital | Operaciones IT Omnicanal
+👤 Información de contacto: yamel.calderon@coppel.com
+
+Quedo a su disposición para cualquier duda o situación adicional. Saludos cordiales.
+
+13/11/2026 18:04:57 - Christian Neriz Burgos (Notas de trabajo)
+90150296 Laura Yoselin Mendoza Reyes de tienda 1248 cliente 675244951 se comunica reportando problemas con las huellas de los clientes en todos los catálogo de su tienda.
+
+13/11/2026 18:03:32 - Christian Neriz Burgos (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0057850"
+Módulos Coppel.com en Tienda,14/11/2026 16:13:14,INC0213415,Resuelto,verdadero,"Información disponible hasta que la orden sea facturada (estatus facturada, factura 0).","Se reporta orden de compra: 314638079, del cliente: 229559409, con estatus facturada, sólo que con factura 0, al consultar ver detalles, arroja mensaje: Información disponible hasta que la orden sea facturada, por lo cual se requiere validar si la orden se proceso de manera correcta. 
+Código: 671169.
+Tienda: 961.",Jesus Antonio Ku Gonzalez,Lessly Deneth Aispuro Amador,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Facturación de Ordenes,Falla,verdadero,0 segundos,,,0,Interacción: IMS0061200,1,0,14/11/2026 14:33:50,14/11/2026 14:33:50,14/11/2026 18:08:05,,Calidad de Software,"Problema:
+La orden se mostraba facturada con factura 0 y no permitía consultar el detalle.
+
+Causa:
+La orden presentó retraso por una alta cantidad de órdenes pendientes de procesamiento.
+
+Pasos de la resolución:
+ • Se revisó la orden reportada y se confirmó que ya contaba con factura Muebles: 894120.
+ • Se informó que la orden ya se encontraba recuperada para su validación.",,"14/11/2026 18:07:31 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, la orden ya se encuentra recuperada favor de validar
+
+14/11/2026 16:14:07 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+14/11/2026 15:59:15 - Jesus Lowell Quinonez Rojo (Comentarios)
+Comentario copiado del incidente principal: Se apoyo con lo solicitado, favor de validar
+Dudas: Hangouts jesus.quinonez 
+
+se anexa evidencia del apoyo
+
+
+14/11/2026 15:59:00 - Jesus Lowell Quinonez Rojo (Comentarios)
+Comentario copiado del incidente principal: Revisado la orden reportada actualmente ya cuenta con Factura Muebles:894120, este incidente puede deverse a que se tiene un alto numero de ordenes pendiente  de procesar, lo cual ocasiona no se facturen al instante y se genere una cola de espera  
+
+14/11/2026 15:45:17 - Jesus Lowell Quinonez Rojo (Comentarios)
+Comentario copiado del incidente principal: 👋¡Hola! Buen día.
+Mi nombre es Jesus Lowell Quiñonez del eje Postventa de Operaciones IT. Seré el encargado de revisar su solicitud.
+Le mantendré informado sobre cualquier avance a través de este medio.
+📙 Contacto directo:  ✉️ jesus.quinonez@coppel.com
+Cualquier duda o comentario, no dudes en contactarme.
+
+
+14/11/2026 14:43:41 - Lessly Deneth Aispuro Amador (Comentarios)
+Cliente solicita la cancelación ya que genero la compra en efectivo.
+
+14/11/2026 14:36:58 - Lessly Deneth Aispuro Amador (Notas de trabajo)
+Solicita apoyo con orden factura sin factura
+
+14/11/2026 14:33:50 - Lessly Deneth Aispuro Amador (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0061200"
+Módulos Coppel.com en Tienda,15/11/2026 09:12:34,INC0219012,Resuelto,verdadero,"Intenta de nuevo. Si el problema persiste, pide a un colaborador levantar un reporte a Mesa de Ayuda (Error -7)","Colaborador de tienda 686 reporta qué al generar ventas en IP 10.41.160.107 presenta mensaje de error ""Intenta de nuevo. Si el problema persiste, pide a un colaborador levantar un reporte a Mesa de Ayuda (Error -7)"". Esto ocurre al intentar confirmar la huella de cliente. Se valida qué servicios de sensor se encuentran ejecutándose. Favor de validar la causa del detalle. Es venta para cliente 396422772.",Brianda Yadira Celiz Ramirez,Julio Cesar Jimenez Garcia,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,Interacción: IMS0062727,1,0,14/11/2026 20:09:08,14/11/2026 20:09:08,15/11/2026 14:03:21,,Calidad de Software,"El flujo en la nube llegó exitosamente hasta dejar a antes de finalizar compra en el proceso checkout (submitForCoppelCreditV2 completado). 
+Al presionar ""Finalizar compra"" en la pantalla del Kiosco: El frontend del Kiosco invoca al servicio/agente local del Kiosco 
+(puerto 5007 o servicio de huella biométrica) para autenticar la huella digital del cliente (como indica el ícono de huella con candado en el modal). Ese servicio local devuelve el código de error 
+-7 antes de que el navegador pueda llamar al endpoint de creación de orden (placeOrder / autorización final).Por lo que se determina un error de comunicación con el lector biométrico, 
+servicio local caído o fallo de inicialización del SDK de huella. Favor de validar esta información en su local y solicitar apoyo a esa de ayuda con su lector de huella. Reintentar la compra e informar sobre resultados.
+Para dudas adicionales se puede comunicar también al chat de Google jessic.garcia@coppel.com",,"15/11/2026 14:02:12 - Jessica Giovana Garcia Gomez (Comentarios)
+El flujo en la nube llegó exitosamente hasta dejar a antes de finalizar compra en el proceso checkout (submitForCoppelCreditV2 completado). 
+Al presionar ""Finalizar compra"" en la pantalla del Kiosco: El frontend del Kiosco invoca al servicio/agente local del Kiosco 
+(puerto 5007 o servicio de huella biométrica) para autenticar la huella digital del cliente (como indica el ícono de huella con candado en el modal). Ese servicio local devuelve el código de error 
+-7 antes de que el navegador pueda llamar al endpoint de creación de orden (placeOrder / autorización final).Por lo que se determina un error de comunicación con el lector biométrico, 
+servicio local caído o fallo de inicialización del SDK de huella. Favor de validar esta información en su local y solicitar apoyo a esa de ayuda con su lector de huella. Reintentar la compra e informar sobre resultados.
+Para dudas adicionales se puede comunicar también al chat de Google jessic.garcia@coppel.com
+
+15/11/2026 09:54:58 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+14/11/2026 20:15:03 - Julio Cesar Jimenez Garcia (Notas de trabajo)
+Colaborador de tienda 686 reporta qué al generar ventas en IP 10.41.160.107 presenta mensaje de error ""Intenta de nuevo. Si el problema persiste, pide a un colaborador levantar un reporte a Mesa de Ayuda (Error -7)"". Esto ocurre al intentar confirmar la huella de cliente. Se valida qué servicios de sensor se encuentran ejecutándose. Favor de validar la causa del detalle. Es venta para cliente 396422772. 
+
+14/11/2026 20:09:08 - Julio Cesar Jimenez Garcia (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0062727"
+Módulos Coppel.com en Tienda,15/11/2026 12:56:40,INC0224551,Resuelto,verdadero,Transacción no autorizada,"97233145 Liliana López Flores de tienda 764 se comunica reportando problemas para finalizar ventas en sus dos micro catálogo kiosko ip 10.41.194.42 y 10.41.194.43 ya que al querer realizar compras le arroja ""TRANSACCIÓN NO AUTORIZADA"" se hizo la prueba con el cliente 277838843 con pago inicial efectivo.",Liliana Lopez Flores,Christian Neriz Burgos,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,,0,0,15/11/2026 12:24:47,15/11/2026 12:21:43,15/11/2026 13:15:57,,Calidad de Software,"Problema:
+La usuaria no pudo finalizar ventas por el mensaje de «TRANSACCIÓN NO AUTORIZADA».
+
+Causa:
+La transacción fue rechazada por antifraude debido al aumento de transacciones en poco tiempo.
+
+Pasos de la resolución:
+ • Se revisó la transacción.
+ • Se recomendó borrar la caché y los datos de navegación con la opción «Todos» seleccionada.
+ • Se indicó validar nuevamente la operación.",,"15/11/2026 13:15:05 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día se revisó la transacción y se detecta que la transacción fue rechazada por antifraude, es común cuando el número de transacciones aumenta ya que se manejan datos de muchos clientes en tiempos muy cortos, se recomienda que borren cache y datos de navegación con la opción ""Todos"" seleccionada. Favor de validar, para dudas se puede comunicar también al correo o chat de Google jessica.garcia@coppel.com
+
+15/11/2026 13:06:22 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema."
+Módulos Coppel.com en Tienda,15/11/2026 11:35:26,INC0222961,Resuelto,verdadero,Transacción rechaza,"Carlos Arredondo
+
+
+tienda 0083 
+Reporta que no le permite finalizar compra con pago con tarjeta en la IP 10.43.67.92, ya que marca transacción rechaza, nos apoyan a revisar por que no permite el pago por favor.
+SKU 646237 y 670588. cuenta con existencia",Carlos Jesus Arredondo Ayon,Karla De Jesus Valenzuela Iribe,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,,1,0,15/11/2026 11:16:56,15/11/2026 11:15:08,15/11/2026 13:17:46,,Calidad de Software,"Problema:
+La compra no finaliza porque la transacción con tarjeta es rechazada.
+
+Causa:
+Falta identificar el motivo del rechazo en los servicios.
+
+Pasos de la resolución:
+ • Solicitar el correo electrónico de los clientes afectados para identificar el motivo del rechazo en los servicios.",,"15/11/2026 13:17:46 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, favor de compartir correo electrónico de los clientes con los que esté presentando problemas para identificar en los servicios el motivo de rechazo.
+
+15/11/2026 13:17:02 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, favor de compartir correo electrónico de los clientes con los que esté presentando problemas para identificar en los servicios el motivo de rechazo.
+
+15/11/2026 13:05:46 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema."
+Módulos Coppel.com en Tienda,13/11/2026 16:10:22,INC0197135,Cerrado,falso,Transacción no autorizada,"90373166 Antonio Gabriel Loyde Garcia de tienda 585 se comunica reportando problemas para pagar con tarjeta en Coppel.com , indica que es de manera general con todas las tarjetas y todas las micro, se validó en la ip 10.42.69.179, terminación 5760 por $7,599.",Antonio Gabriel Loyde Garcia,Christian Neriz Burgos,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 19 minutos,,,0,,0,0,13/11/2026 15:37:02,13/11/2026 15:33:41,13/11/2026 16:52:46,16/11/2026 17:11:18,Calidad de Software,"Problema:
+El cliente no pudo pagar con tarjeta en Coppel.com.
+
+Causa:
+La transacción fue rechazada por Decision Manager antes de llegar al procesador bancario.
+
+Pasos de la resolución:
+ • Se informó que la operación fue rechazada por el motor de prevención de fraudes.
+ • Se recomendó evitar nuevos intentos con la misma tarjeta en un periodo corto.
+ • Se sugirió realizar el cobro presencial en caja o mediante terminal física.
+ • Se indicó iniciar sesión con una cuenta registrada para reducir el puntaje de riesgo.",,"13/11/2026 16:52:10 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día. La transacción fue rechazada por el motor de prevención de fraudes (Decision Manager) antes de llegar siquiera al procesador bancario (EVO). Operación DECISION con estatus REJECTED Tras el primer rechazo, el usuario volvió a intentar con la misma tarjeta apenas 1 minuto y medio después (15:05:35), lo que suele reforzar el bloqueo preventivo. por lo que se recomienda
+
+ Evitar más reintentos con la misma tarjeta: Si el cliente vuelve a intentar pasar la misma tarjeta (*********5760) en el kiosko en un periodo corto, el motor de riesgo seguirá bloqueándola por frecuencia y podría escalar el bloqueo a nivel cuenta/dispositivo
+
+Cobro presencial en caja: Si el kiosko permite generar una referencia o pasar el pedido a cobro en terminal física
+
+Iniciar sesión con cuenta registrada: En lugar de comprar como invitado (guest: true), pedirle al cliente que inicie sesión con su cuenta Coppel (o crearla en el momento) aporta historial y reduce el puntaje de riesgo en Decision Manager
+
+13/11/2026 16:16:28 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema."
+Módulos Coppel.com en Tienda,13/11/2026 11:42:16,INC0189577,Cerrado,falso,no permite hacer ventas a credito en coppel.com,"Andrea Guadalupe Solis Salazar de tienda 808 reporta problemas al realizar ventas por Coppel.com al momento de agregar los datos de cliente arroja el mensaje ""Algo salió mal. Intenta más tarde"". Favor de apoyar. 
+Cliente  384564283
+IP 10.42.69.117",Andrea Guadalupe Solis Salazar,Lessly Deneth Aispuro Amador,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,1. Servicio no disponible,4 - Usuario / Cliente,3 - Baja,"2. Intermitente, lento o degradado",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,4 Horas 27 minutos,,INC0189249,0,Interacción: IMS0055387,2,0,13/11/2026 11:36:00,13/11/2026 11:36:00,13/11/2026 16:03:33,16/11/2026 16:11:39,Calidad de Software,Se ha copiado Notas de resolución del incidente principal: No ha habido suficiente actividad para que Now Assist genere notas de resolución.,,"13/11/2026 16:03:33 - Lidia Aracely Lau Valenzuela (Comentarios)
+Resuelto en función de la resolución del incidente principal. 🟢 CIERRE DE INCIDENTE ALTO TICKET   #INC0189718
+
+
+🏢 Torre: Omnicanal
+
+
+🚫 Servicio afectado: bs-downpaymentamount y pm-be-checkout
+
+
+⚠️Criticidad: Alto
+
+
+⏳ SLA de Atención: 4 hrs.
+
+
+⚙️ Incidente: Se tiene problemas al finalizar ventas en canales digitales, se tiene afectación en el performance (tiempos de respuesta) del cálculo de pago inicial, se presenta latencia en servicios de pago inicial y base de datos durante el Buen Fin. 
+
+
+
+
+🛠️ Acciones Realizadas
+
+
+
+
+-Evaluaron el comportamiento de las conexiones en la base de datos, el uso de balanceadores y las métricas de latencia en los servicios.
+-Reinicio de Servicios y aumento de conexiones en Pago Inicial
+-servicios reiniciados:
+api-certificacionessystem
+api-configcentraltiendasystem
+api-consultarfactorsystem 
+-Aumento de conexiones a base de datos centralfinanciero por pod:
+api-certificacionessystem, se aumenta de 30 a 35 conexiones por pod
+api-configcentraltiendasystem, se aumenta de 4 a 6 conexiones por pod
+api-consultarfactorsystem, se aumenta de 40 a 6 conexiones por pod
+-Aprobación de PRs con los cambios en las properties. Cambio de service connection para el envío de la imagen al ambiente productivo.
+
+
+
+
+
+
+
+
+
+
+🛠️ Plan de Acción / Solución
+🛠️  Despliegue y mitigación: Aplicaron hotfix y ajustes en las configuraciones de conexiones para los servicios de certificación
+
+
+🛠️ Confirmaron la reducción en la latencia y en el número de conexiones en la base de datos, observando una recuperación favorable en el flujo de ventas.
+
+
+
+
+🛠️  El equipo señaló la importancia de documentar los aprendizajes y definir un playbook para futuras ejecuciones de alto estrés (como temporadas de alta demanda).
+
+
+Impacto Final: Servicio restablecido en ventas en canales digitales
+
+
+🕐 Hora Solución: 13/11/2026 12:27 pm  hr CLCN
+
+
+
+
+⏳ Duración de Incidente: 1 hrs 27 min
+✒️ Informa: Kenia Nieblas
+
+13/11/2026 12:06:04 - Jessica Giovana Garcia Gomez (Comentarios)
+🔥 INCIDENCIA: Latencia en servicios bs-downpaymentamount y pm-be-checkout
+
+
+📆 Fecha: 13/11/2026
+🕛 Hora inicio: 09:00 a. m. (Hora CLN)
+🕛 Hora fin: 
+
+
+🌡️ Síntomas:
+Se presenta alta latencia en los servicios críticos bs-downpaymentamount y pm-be-checkout. Cabe destacar que el flujo de venta se observa OK y operando con normalidad**; la afectación es en el performance (tiempos de respuesta) del cálculo de pago inicial.
+
+
+🔍 Causa raíz (Preliminar):
+El problema es originado por una dependencia de SSFF con la respuesta de la BD centralfinanciero, lo cual está generando la latencia observada.
+
+
+🛠️ Seguimiento:
+El incidente está siendo atendido por áreas especialistas.
+
+13/11/2026 12:05:58 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+13/11/2026 11:39:44 - Lessly Deneth Aispuro Amador (Notas de trabajo)
+Algo salió mal. Intenta más tarde
+
+13/11/2026 11:36:00 - Lessly Deneth Aispuro Amador (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0055387"
+Módulos Coppel.com en Tienda,13/11/2026 11:40:04,INC0189538,Cerrado,falso,Al hacer una compra a crédito marca todo de contado,"90417884 Blanca Esmeralda De La Cruz Bermudez de tienda 7777 se comunica reportando problemas con todas las ventas a crédito mediante Coppel.com ya que le marca todo de pago inicial, se hace la prueba en NPV y no le pide pago inicial pero en la página si, se hace la prueba con el cliente 612425355, favor de apoyar.",Blanca Esmeralda De La Cruz Bermudez,Christian Neriz Burgos,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,4 Horas 29 minutos,,INC0189249,1,Interacción: IMS0055355,1,0,13/11/2026 11:34:24,13/11/2026 11:34:24,13/11/2026 16:03:40,16/11/2026 16:11:44,Calidad de Software,Se ha copiado Notas de resolución del incidente principal: No ha habido suficiente actividad para que Now Assist genere notas de resolución.,,"13/11/2026 16:03:40 - Lidia Aracely Lau Valenzuela (Comentarios)
+Resuelto en función de la resolución del incidente principal. 🟢 CIERRE DE INCIDENTE ALTO TICKET   #INC0189718
+
+
+🏢 Torre: Omnicanal
+
+
+🚫 Servicio afectado: bs-downpaymentamount y pm-be-checkout
+
+
+⚠️Criticidad: Alto
+
+
+⏳ SLA de Atención: 4 hrs.
+
+
+⚙️ Incidente: Se tiene problemas al finalizar ventas en canales digitales, se tiene afectación en el performance (tiempos de respuesta) del cálculo de pago inicial, se presenta latencia en servicios de pago inicial y base de datos durante el Buen Fin. 
+
+
+
+
+🛠️ Acciones Realizadas
+
+
+
+
+-Evaluaron el comportamiento de las conexiones en la base de datos, el uso de balanceadores y las métricas de latencia en los servicios.
+-Reinicio de Servicios y aumento de conexiones en Pago Inicial
+-servicios reiniciados:
+api-certificacionessystem
+api-configcentraltiendasystem
+api-consultarfactorsystem 
+-Aumento de conexiones a base de datos centralfinanciero por pod:
+api-certificacionessystem, se aumenta de 30 a 35 conexiones por pod
+api-configcentraltiendasystem, se aumenta de 4 a 6 conexiones por pod
+api-consultarfactorsystem, se aumenta de 40 a 6 conexiones por pod
+-Aprobación de PRs con los cambios en las properties. Cambio de service connection para el envío de la imagen al ambiente productivo.
+
+
+
+
+
+
+
+
+
+
+🛠️ Plan de Acción / Solución
+🛠️  Despliegue y mitigación: Aplicaron hotfix y ajustes en las configuraciones de conexiones para los servicios de certificación
+
+
+🛠️ Confirmaron la reducción en la latencia y en el número de conexiones en la base de datos, observando una recuperación favorable en el flujo de ventas.
+
+
+
+
+🛠️  El equipo señaló la importancia de documentar los aprendizajes y definir un playbook para futuras ejecuciones de alto estrés (como temporadas de alta demanda).
+
+
+Impacto Final: Servicio restablecido en ventas en canales digitales
+
+
+🕐 Hora Solución: 13/11/2026 12:27 pm  hr CLCN
+
+
+
+
+⏳ Duración de Incidente: 1 hrs 27 min
+✒️ Informa: Kenia Nieblas
+
+13/11/2026 12:03:48 - Jessica Giovana Garcia Gomez (Comentarios)
+🔥 INCIDENCIA: Latencia en servicios bs-downpaymentamount y pm-be-checkout
+
+
+📆 Fecha: 13/11/2026
+🕛 Hora inicio: 09:00 a. m. (Hora CLN)
+🕛 Hora fin: 
+
+
+🌡️ Síntomas:
+Se presenta alta latencia en los servicios críticos bs-downpaymentamount y pm-be-checkout. Cabe destacar que el flujo de venta se observa OK y operando con normalidad**; la afectación es en el performance (tiempos de respuesta) del cálculo de pago inicial.
+
+
+🔍 Causa raíz (Preliminar):
+El problema es originado por una dependencia de SSFF con la respuesta de la BD centralfinanciero, lo cual está generando la latencia observada.
+
+
+🛠️ Seguimiento:
+El incidente está siendo atendido por áreas especialistas.
+
+13/11/2026 12:01:53 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+13/11/2026 11:36:52 - Christian Neriz Burgos (Notas de trabajo)
+90417884 Blanca Esmeralda De La Cruz Bermudez de tienda 7777 se comunica reportando problemas con todas las ventas a crédito mediante Coppel.com ya que le marca todo de pago inicial, se hace la prueba en NPV y no le pide pago inicial pero en la página si, se hace la prueba con el cliente 612425355, favor de apoyar.
+
+13/11/2026 11:34:24 - Christian Neriz Burgos (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0055355"
+Módulos Coppel.com en Tienda,13/11/2026 16:09:04,INC0196573,Cerrado,falso,Cliente nuevo detalles en pago inicial en artículos de telefonía,Cliente 677602944 cuenta con detalles para realizar compra código 247505 el cual se refleja con pago inicial elevado para cliente el cual se entregó la tarjeta el día de hoy,Emily Paola Medina Rodelo,Emily Paola Medina Rodelo,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 23 minutos,,,0,,0,0,13/11/2026 15:14:30,13/11/2026 15:10:59,13/11/2026 16:34:55,16/11/2026 17:11:24,Calidad de Software,"Problema:
+El cliente presentó un pago inicial elevado al intentar comprar artículos de telefonía.
+
+Causa:
+El servicio de cálculo de pago inicial presentó fallas durante la mañana y la tarde.
+
+Pasos de la resolución:
+ • Se atendió la solicitud del cliente y se informó el seguimiento del caso.
+ • Se confirmó que el servicio de cálculo de pago inicial quedó solucionado.
+ • Se validó que la última consulta reflejó un pago inicial de 130 para una compra de 3500.
+ • Se indicó al cliente que podía solicitar apoyo adicional por correo o chat de Google.",,"13/11/2026 16:28:05 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, le comento que durante la mañana/tarde se estuvieron teniendo problemas con el servicio del cálculo de pago inicial, actualmente se encuentra solucionado, en la última consulta que realizó el cliente se nota que el pago inicial le pide 130 por una compra de 3500, favor de validar, para dudas se puede comunicar al correo o chet de Google jessica.garcia@coppel.com
+
+13/11/2026 16:15:42 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema."
+Módulos Coppel.com en Tienda,13/11/2026 16:09:57,INC0197025,Cerrado,falso,Transacción no autorizada,"Liliana Lopez Flores de tienda 764 reporta que en las IP catálogo 10.41.194.43 y 10.41.194.42, debido a que no les permite realizar ventas a crédito y contado, les arroja el mensaje ""Transacción no autorizada"", se validó con cliente 90001 - David Rosas Martínez. Favor de validar.",Liliana Lopez Flores,Mitzu Yarili Gastelum Arce,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 29 minutos,,,0,,2,0,13/11/2026 15:36:26,13/11/2026 15:29:45,13/11/2026 16:59:24,16/11/2026 17:11:42,Calidad de Software,"Problema:
+La transacción fue rechazada al intentar realizar ventas a crédito y contado.
+
+Causa:
+Decision Manager rechazó la operación antes de llegar al procesador bancario EVO.
+
+Pasos de la resolución:
+ • Evitar reintentos con la misma tarjeta en un periodo corto.
+ • Permitir el cobro presencial en caja mediante una referencia o terminal física.
+ • Solicitar el inicio de sesión con una cuenta registrada para reducir el puntaje de riesgo.",,"13/11/2026 16:58:53 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día. La transacción fue rechazada por el motor de prevención de fraudes (Decision Manager) antes de llegar siquiera al procesador bancario (EVO). Operación DECISION con estatus REJECTED
+
+Evitar más reintentos con la misma tarjeta: Si el cliente vuelve a intentar pasar la misma tarjeta en el kiosko en un periodo corto, el motor de riesgo seguirá bloqueándola por frecuencia y podría escalar el bloqueo a nivel cuenta/dispositivo
+
+Cobro presencial en caja: Si el kiosko permite generar una referencia o pasar el pedido a cobro en terminal física
+
+Iniciar sesión con cuenta registrada: En lugar de comprar como invitado (guest: true), pedirle al cliente que inicie sesión con su cuenta Coppel (o crearla en el momento) aporta historial y reduce el puntaje de riesgo en Decision Manager
+
+13/11/2026 16:16:12 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema."
+Módulos Coppel.com en Tienda,14/11/2026 12:26:35,INC0195180,Cerrado,falso,"precio en periodico coppel SKU: 144713 precio $5,999 al momento de hacer la compra se oferta en $6,999",,Marco Antonio Martinez Vazquez,Jesus Arturo Espinoza Martinez,Jessica Giovana Garcia Gomez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,1. Servicio no disponible,4 - Usuario / Cliente,3 - Baja,"1. Sin servicio, se detiene",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,4 Horas 36 minutos,,,0,Interacción: IMS0056279,1,0,13/11/2026 14:23:10,13/11/2026 14:23:10,14/11/2026 13:18:22,17/11/2026 14:11:31,Calidad de Software,"Problema:
+El precio del producto no coincidía entre el periódico y la compra.
+
+Causa:
+El precio del SKU 144713 no estaba actualizado al momento de la compra.
+
+Pasos de la resolución:
+ • Se actualizó el precio del producto.
+ • Se solicitó validar el cambio de precio.",,"14/11/2026 13:17:11 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día, se ha actualizado el precio del producto, favor de validar, para dudas se puede comunicar también al chat de Google jessica.garcia@coppel.com
+
+14/11/2026 12:55:01 - Jessica Giovana Garcia Gomez (Comentarios)
+Buen día mi nombre es Jessica del área de Operaciones TI, su solicitud está siendo atendida. En breve le proporcionaré una actualización respecto al tema.
+
+14/11/2026 11:23:07 - Jesus Arturo Espinoza Martinez (Comentarios)
+.
+
+14/11/2026 11:17:49 - Jesus Arturo Espinoza Martinez (Notas de trabajo)
+.
+
+13/11/2026 14:23:10 - Jesus Arturo Espinoza Martinez (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0056279"

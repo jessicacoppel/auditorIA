@@ -1,0 +1,269 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Publicación & Contenido,11/11/2026 11:27:56,INC0159476,Cerrado,falso,Cambia de precio al agregar producto al carrito y no respeta el precio de promoción,"98606654 Roseli Guadalupe Quiroz Beltran de tienda 469 reporta el código: 249427 el cual se muestra en promoción, sin embargo, al agregar al carrito, el precio cambio y no muestra la oferta, por lo cual no se proceso la venta de manera correcta, favor de apoyar con este detalle ip 10.41.196.248",Roseli Guadalupe Quiroz Beltran,Christian Neriz Burgos,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,58 minutos,,INC0158742,0,,0,0,11/11/2026 11:17:33,11/11/2026 11:14:41,11/11/2026 12:13:35,14/11/2026 13:11:15,Calidad de Software,"Las ofertas no se reflejaban actualizadas en Salesforce.
+
+Solución: Se ejecutó una sincronización completa de precios (full) para cargar las ofertas vigentes de todos los SKUs de 1P.",,"11/11/2026 11:33:04 - Jose Javier Rodriguez Morales (Comentarios)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos.
+
+11/11/2026 11:32:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,09/11/2026 11:30:08,INC0134690,Cerrado,falso,Cambia de precio al agregar al carrito,90465013 VALERIA SANTOS de tienda 975 reporta detalles con el código 875213 de ropa que marca precio en oferta por $560 y al agregarlo al carrito marca el precio de $699 y el código 897709  marca precio en oferta por $450 y al agregarlo al carrito marca el precio de $749. Favor de apoyar.,Valeria Santos Hernandez,Lessly Deneth Aispuro Amador,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Precios Incorrectos,Falla,verdadero,5 Horas 1 minuto,,INC0134096,0,,1,0,09/11/2026 11:18:39,09/11/2026 11:13:50,09/11/2026 16:15:29,12/11/2026 17:11:02,Calidad de Software,"La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución: Se realizo un full de precios para cargar las ofertas de todos los skus de 1P",,"09/11/2026 13:47:55 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 12:37:27 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 12:37:15 - Jose Javier Rodriguez Morales (Comentarios)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 11:55:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Nota de trabajo copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,09/11/2026 11:28:59,INC0133952,Cerrado,falso,Cambia precio al agregar a carrito,"90302726 Jairo Peraza Reyes de Tienda 301.
+
+Reporta que cambia precio al agregar a carrito los sku 577294 en $1,909 cambia a $1,999 . Se valida en varias micro de tienda con el mismo problema. Favor de revisar",Jairo Peraza Reyes,Christian Neriz Burgos,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,5 Horas 18 minutos,,INC0134096,0,,1,0,09/11/2026 10:41:36,09/11/2026 10:36:48,09/11/2026 16:18:28,12/11/2026 17:11:06,Calidad de Software,"La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución: Se realizo un full de precios para cargar las ofertas de todos los skus de 1P",,"09/11/2026 13:47:55 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 12:37:25 - Jose Javier Rodriguez Morales (Comentarios)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 11:55:55 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,09/11/2026 12:40:13,INC0136058,Cerrado,falso,Cambia precio al agregar a carrito,"Sandra Arevalo Rodriguez TDA 337
+
+Reporta que cambia precio al agregar a carrito los sku 660841 en $4899 cambia a $5999 . Se valida en varias micro de tienda con el mismo problema. Favor de revisar",Sandra Arevalo Rodriguez,Jesus Arturo Espinoza Martinez,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Venta a crédito en línea,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Precios Incorrectos,Falla,verdadero,1 hora 24 minutos,,INC0134096,0,,1,0,09/11/2026 12:33:18,09/11/2026 12:25:53,09/11/2026 13:50:04,12/11/2026 14:11:02,Terceros y Aplicaciones,"Se ha copiado Notas de resolución del incidente principal: Causa raíz:
+La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución:  Se realizo un full de precios para cargar las ofertas de todos los skus de 1P",,"09/11/2026 13:50:04 - Edgar Roberto Guzman Martinez (Comentarios)
+Resuelto en función de la resolución del incidente principal. 
+
+09/11/2026 13:47:55 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 12:40:13 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza info
+
+09/11/2026 12:37:28 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema."
+Publicación & Contenido,09/11/2026 11:29:51,INC0134556,Cerrado,falso,Cambia de precio al agregar al carrito,Jenifer Gonzalez Gonzalez de tienda 1470 reporta detalles con el código 848217 de ropa que marca precio en oferta por $750 y al agregarlo al carrito marca el precio de $1499. Favor de apoyar.,Jenifer Gonzalez Gonzalez,Lessly Deneth Aispuro Amador,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Clientes y Canales,Coppel.com,Ventas en coppel.com,Precios Incorrectos,Falla,verdadero,2 Horas 41 minutos,,INC0134096,0,,1,0,09/11/2026 11:12:18,09/11/2026 11:08:34,09/11/2026 13:50:05,12/11/2026 14:11:02,Terceros y Aplicaciones,"Se ha copiado Notas de resolución del incidente principal: Causa raíz:
+La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución:  Se realizo un full de precios para cargar las ofertas de todos los skus de 1P",,"09/11/2026 13:50:05 - Edgar Roberto Guzman Martinez (Comentarios)
+Resuelto en función de la resolución del incidente principal. 
+
+09/11/2026 13:47:55 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 12:37:27 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 12:37:20 - Jose Javier Rodriguez Morales (Comentarios)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 11:55:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Nota de trabajo copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,09/11/2026 13:18:20,INC0135130,Cerrado,falso,Cambia de precio al agregar al carrito.,"El artículo 897356 (zapatos en oferta a $600), el cliente se llevará 3 pares (2 en talla 250 y 1 en talla 270), pero al agregar al carrito cambian de precio, favor de apoyar.",Laura Solis Estrada,Rafael Guadalupe Quijada Estrella,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com en Tienda,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,2 Horas 13 minutos,,INC0134096,0,Interacción: IMS0043310,1,0,09/11/2026 11:36:10,09/11/2026 11:36:10,09/11/2026 13:50:05,12/11/2026 14:11:02,Terceros y Aplicaciones,"Se ha copiado Notas de resolución del incidente principal: Causa raíz:
+La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución:  Se realizo un full de precios para cargar las ofertas de todos los skus de 1P",,"09/11/2026 13:50:05 - Edgar Roberto Guzman Martinez (Comentarios)
+Resuelto en función de la resolución del incidente principal. 
+
+09/11/2026 13:47:55 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 12:37:27 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 11:55:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Nota de trabajo copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos.
+
+
+
+09/11/2026 11:39:27 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Se relacion a ticket padre
+
+09/11/2026 11:38:54 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Se relaciona a folio principal.
+
+09/11/2026 11:36:10 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0043310"
+Publicación & Contenido,09/11/2026 12:40:31,INC0135447,Cerrado,falso,Cambia precio al agregar a carrito,"90087905 Juan Carlos Morales Hernández de tienda 482.
+
+Reporta que cambia precio al agregar a carrito los sku 286649 en $3,839 cambia a $4,299 . Se valida en varias micro de tienda con el mismo problema. Favor de revisar",Jairo Peraza Reyes,Christian Neriz Burgos,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,4 Horas 22 minutos,,INC0134096,0,,1,0,09/11/2026 11:53:40,09/11/2026 11:51:52,09/11/2026 16:14:35,12/11/2026 17:11:18,Calidad de Software,.,,"09/11/2026 16:14:07 - Jose Javier Rodriguez Morales (Comentarios)
+La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución: Se realizo un full de precios para cargar las ofertas de todos los skus de 1P
+
+09/11/2026 13:47:55 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Comentario copiado del incidente principal: Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 12:37:27 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 11:55:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Nota de trabajo copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,11/11/2026 13:13:24,INC0160149,Cerrado,falso,Mal precio en Coppel.com,"Descripción detallada: El sku 661236 una estufa koblenz aparece en coppel.com en precio de contado de $9999, al agregar a carrito aumenta a $10499 de contado y durante todo el proceso de venta se mantiene ese $10499.
+Opción seleccionada: Venta
+Correo Electrónico: c90158140@coppel.com
+Teléfono/Extensión: 4871173313
+Detalle de la ubicación: 
+Lugar de Trabajo: Tienda 903 plaza principal de Rioverde ; Nivel o piso: 2; Módulo: Coppel.com; Número de posición: Toda la tienda ; Caja: En catalogo coppel;",Sergio Armando Reyna Galicia,Sergio Armando Reyna Galicia,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 31 minutos,,INC0158742,0,,3,0,11/11/2026 11:42:28,11/11/2026 11:42:28,11/11/2026 13:13:54,14/11/2026 14:11:08,Calidad de Software,"Se ha copiado Notas de resolución del incidente principal: 
+Las ofertas no se reflejaban actualizadas en Salesforce.
+
+Solución: Se ejecutó una sincronización completa de precios (full) para cargar las ofertas vigentes de todos los SKUs de 1P.",,"11/11/2026 13:13:54 - Lidia Aracely Lau Valenzuela (Comentarios)
+Resuelto en función de la resolución del incidente principal. 
+
+11/11/2026 11:49:58 - Claudia Janeth Rivas Jara (Notas de trabajo)
+Se reasigna segundo nivel."
+Publicación & Contenido,11/11/2026 12:23:13,INC0159837,Cerrado,falso,Cambia de precio al agregar producto al carrito y no respeta el precio de promoción,"90549463 Daniela Denisse Ruiz Olvera de tienda 7811 reporta el código: 844067 el cual se muestra en promoción, sin embargo, al agregar al carrito, el precio cambio y no muestra la oferta, por lo cual no se proceso la venta de manera correcta, favor de apoyar con este detalle.",Daniela Denisse Ruiz Olvera,Christian Neriz Burgos,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Carga Diaria Plataformas Digitales,Falla en el precio del producto,Falla,verdadero,1 hora,,INC0158742,0,,0,0,11/11/2026 11:31:10,11/11/2026 11:29:26,11/11/2026 12:29:34,14/11/2026 13:11:12,Calidad de Software,"Las ofertas no se reflejaban actualizadas en Salesforce.
+
+Solución: Se ejecutó una sincronización completa de precios (full) para cargar las ofertas vigentes de todos los SKUs de 1P. era vacío",,"11/11/2026 12:25:19 - Jose Javier Rodriguez Morales (Comentarios)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,11/11/2026 10:53:39,INC0158742,Cerrado,falso,Cambia de precio al agregar producto al carrito y no respeta el precio de promoción,"Natali Ramirez Machado de ventas por tienda 800 reporta el código: 845315 el cual se muestra en promoción, sin embargo, al agregar al carrito, el precio cambio y no muestra la oferta, por lo cual no se proceso la venta de manera correcta, favor de apoyar con este detalle.",Natali Ramirez Machado,Rafael Guadalupe Quijada Estrella,Jose Javier Rodriguez Morales,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 18 minutos,,,5,Interacción: IMS0048937,1,0,11/11/2026 10:39:12,11/11/2026 10:39:12,11/11/2026 12:18:16,14/11/2026 13:11:28,Calidad de Software,"Las ofertas no se reflejaban actualizadas en Salesforce.
+
+Solución: Se ejecutó una sincronización completa de precios (full) para cargar las ofertas vigentes de todos los SKUs de 1P.",,"13/11/2026 08:39:47 - Natali Ramirez Machado (Comentarios)
+Hola, buen día, el día de hoy se está presentando la falla con todos los productos, cambia el precio al agregar al carrito
+
+11/11/2026 10:57:19 - Jose Javier Rodriguez Morales (Comentarios)
+Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludo
+
+11/11/2026 10:44:55 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Cambia de precio al agregar al carrito de compras (CAT), se genera folio. 
+
+11/11/2026 10:39:12 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0048937"

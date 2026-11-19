@@ -1,0 +1,250 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Publicación & Contenido,06/11/2026 09:09:54,INC0112173,Cerrado,falso,Falla al agregar SKUs al carrito (Ropa) 06-Nov-26,"Descripción detallada: Hola, buen día:
+
+Les pido su apoyo para revisar una incidencia que estamos detectando en el flujo del carrito. Se están presentando errores al momento de intentar agregar SKUs de las categorías de Ropa.
+
+A continuación, comparto los detalles del reporte:
+
+Fecha del evento: 06-Nov-26
+
+Evidencias: Se adjuntan los logs correspondientes para su análisis.
+
+Quedo al pendiente de sus comentarios o de cualquier duda para el seguimiento.
+
+¡Muchas gracias y saludos!
+Opción seleccionada: Problemas al finalizar orden de compra
+Correo Electrónico: lidia.lau@coppel.com
+Teléfono/Extensión: 0
+Detalle de la ubicación: 
+Lugar de Trabajo: HO; Nivel o piso: ; Módulo: ; Número de posición: 0; Caja: ;",Lidia Aracely Lau Valenzuela,Lidia Aracely Lau Valenzuela,Edgar Roberto Guzman Martinez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,2 Horas 27 minutos,,,0,,1,0,06/11/2026 09:07:16,06/11/2026 09:07:15,06/11/2026 13:27:43,09/11/2026 14:11:21,Terceros y Aplicaciones,"Causa raíz:
+La falla se debe a que los productos no tienen una categoría asignada (Error: 'is unknown, offline or not assigned to the site catalog'). 
+
+Pasos de la resolución:
+- Tras revisar el caso, se confirmó que la categoría de los productos no estaba asignada correctamente.
+- Se adjuntaron evidencias con detalles completos para el análisis.
+- Se indicó que desde las 9:50 am no se presentan errores, lo que sugiere que la solución fue implementada con éxito.",,"06/11/2026 13:27:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Desde las 9:50 am no se presentan errores
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+06/11/2026 09:45:42 - Edgar Roberto Guzman Martinez (Comentarios)
+Tras revisar el caso, confirmamos que la falla se debe a que los productos no tienen una categoría asignada (Error: """"is unknown, offline or not assigned to the site catalog""""). Actualmente estamos trabajando en la solución.
+
+Resumen de casos detectados: 974
+
+Anexo las evidencias con el detalle completo.
+
+06/11/2026 09:14:04 - Edgar Roberto Guzman Martinez (Comentarios)
+Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+06/11/2026 09:09:54 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza grupo de asignación"
+Publicación & Contenido,06/11/2026 09:10:13,INC0112165,Cerrado,falso,Falla al agregar SKUs al carrito (Muebles) 06-Nov-26,"Descripción detallada: Hola, buen día:
+
+Les pido su apoyo para revisar una incidencia que estamos detectando en el flujo del carrito. Se están presentando errores al momento de intentar agregar SKUs de las categorías de Muebles.
+
+A continuación, comparto los detalles del reporte:
+
+Fecha del evento: 06-Nov-26
+
+Evidencias: Se adjuntan los logs correspondientes para su análisis.
+
+Quedo al pendiente de sus comentarios o de cualquier duda para el seguimiento.
+
+¡Muchas gracias y saludos!
+Opción seleccionada: Problemas al finalizar orden de compra
+Correo Electrónico: lidia.lau@coppel.com
+Teléfono/Extensión: 0
+Detalle de la ubicación: 
+Lugar de Trabajo: HO; Nivel o piso: ; Módulo: ; Número de posición: 0; Caja: ;",Lidia Aracely Lau Valenzuela,Lidia Aracely Lau Valenzuela,Edgar Roberto Guzman Martinez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,2 Horas 31 minutos,,,0,,1,0,06/11/2026 09:06:42,06/11/2026 09:06:42,06/11/2026 13:31:15,09/11/2026 14:11:22,Terceros y Aplicaciones,"Causa raíz:
+La falla se debe a que los productos no tienen una categoría asignada (Error: 'is unknown, offline or not assigned to the site catalog'). 
+
+Pasos de la resolución:
+- Tras revisar el caso, se confirmó que la categoría de los productos no estaba asignada correctamente.
+- Se adjuntaron evidencias con detalles completos para el análisis.
+- Se indicó que desde las 9:54 am no se presentan errores, lo que sugiere que la solución fue implementada con éxito.",,"06/11/2026 13:30:36 - Edgar Roberto Guzman Martinez (Comentarios)
+Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Desde las 9:54 am no se presentan errores
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+06/11/2026 09:41:48 - Edgar Roberto Guzman Martinez (Comentarios)
+Tras revisar el caso, confirmamos que la falla se debe a que los productos no tienen una categoría asignada (Error: """"is unknown, offline or not assigned to the site catalog""""). Actualmente estamos trabajando en la solución.
+
+Resumen de casos detectados: 67
+
+Anexo las evidencias con el detalle completo.
+
+06/11/2026 09:13:38 - Edgar Roberto Guzman Martinez (Comentarios)
+Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+06/11/2026 09:10:13 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza grupo de asignación"
+Publicación & Contenido,09/11/2026 11:30:21,INC0134096,Cerrado,falso,Cambia precio al agregar a carrito,"Melanie Anahi Barraza Higuera CAT  TDA 7721
+
+Reporta que cambia precio al agregar a carrito los sku 101305 en $399 cambia a $699 .. Favor de revisar",Melanie Anahi Barraza Higuera,Jesus Arturo Espinoza Martinez,Edgar Roberto Guzman Martinez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Venta a crédito en línea,Coppel.com en Tienda,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Precios Incorrectos,Falla,verdadero,2 Horas 50 minutos,,,8,,1,0,09/11/2026 10:45:46,09/11/2026 10:42:42,09/11/2026 13:50:04,12/11/2026 14:11:00,Terceros y Aplicaciones,"Causa raíz:
+La ofertas no se actualizaron en la plataforma de Salesforce
+
+Pasos de la resolución:  Se realizo un full de precios para cargar las ofertas de todos los skus de 1P",,"09/11/2026 13:47:54 - Edgar Roberto Guzman Martinez (Comentarios)
+Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+09/11/2026 13:42:06 - Edgar Roberto Guzman Martinez (Comentarios)
+Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+09/11/2026 13:13:02 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza estado de la actividad y afectación
+
+09/11/2026 12:37:27 - Jose Javier Rodriguez Morales (Comentarios)
+Comentario copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+
+09/11/2026 12:02:51 - Melanie Anahi Barraza Higuera (Comentarios)
+Nos continua ocurriendo con diversos artículos
+
+09/11/2026 11:55:56 - Jose Javier Rodriguez Morales (Notas de trabajo)
+Nota de trabajo copiado del incidente principal: Buen día.
+Mi nombre es Javier Rodriguez pertenezco al área de Operaciones IT del eje Retail y estaré atendiendo su solicitud.
+En cuanto tenga un avance, le proporcionará una actualización respecto al tema.
+Saludos."
+Publicación & Contenido,13/11/2026 11:38:40,INC0189615,Cerrado,falso,Falla al agregar SKUs al carrito (Muebles) 13-Nov-26,"Descripción detallada: Hola, buen día:
+
+Les pido su apoyo para revisar una incidencia que estamos detectando en el flujo del carrito. Se están presentando errores al momento de intentar agregar SKUs de las categorías de Muebles.
+
+A continuación, comparto los detalles del reporte:
+
+Fecha del evento: 13-Nov-26
+
+Evidencias: Se adjuntan los logs correspondientes para su análisis.
+
+
+
+Quedo al pendiente de sus comentarios o de cualquier duda para el seguimiento.
+
+¡Muchas gracias y saludos!
+Opción seleccionada: Venta
+Correo Electrónico: lidia.lau@coppel.com
+Teléfono/Extensión: 0
+Detalle de la ubicación: 
+Lugar de Trabajo: HO; Nivel o piso: ; Módulo: ; Número de posición: 0; Caja: ;",Lidia Aracely Lau Valenzuela,Lidia Aracely Lau Valenzuela,Edgar Roberto Guzman Martinez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 22 minutos,,,0,,1,0,13/11/2026 11:37:10,13/11/2026 11:37:10,13/11/2026 12:59:21,16/11/2026 13:11:18,Terceros y Aplicaciones,"Problema:
+El usuario no pudo agregar SKUs de la categoría Muebles al carrito.
+
+Causa:
+Los productos no tenían categoría asignada al catálogo del sitio.
+
+Pasos de la resolución:
+ • Se confirmó la causa de la falla en los productos afectados.
+ • Se atendió la solicitud y se adjuntó la evidencia correspondiente para revisión.",,"13/11/2026 12:58:49 - Edgar Roberto Guzman Martinez (Comentarios)
+Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+13/11/2026 11:47:07 - Edgar Roberto Guzman Martinez (Comentarios)
+Tras revisar el caso, confirmamos que la falla se debe a que los productos no tienen una categoría asignada (Error: """"is unknown, offline or not assigned to the site catalog""""). Actualmente estamos trabajando en la solución.
+
+Resumen de casos detectados: 37
+
+Anexo las evidencias con el detalle completo.
+
+13/11/2026 11:45:32 - Edgar Roberto Guzman Martinez (Comentarios)
+Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+13/11/2026 11:38:40 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Actualización"
+Publicación & Contenido,13/11/2026 11:37:55,INC0189592,Cerrado,falso,Falla al agregar SKUs al carrito (Ropa) 13-Nov-26,"Descripción detallada: Hola, buen día:
+
+Les pido su apoyo para revisar una incidencia que estamos detectando en el flujo del carrito. Se están presentando errores al momento de intentar agregar SKUs de las categorías de Ropa.
+
+A continuación, comparto los detalles del reporte:
+
+Fecha del evento: 13-Nov-26
+
+Evidencias: Se adjuntan los logs correspondientes para su análisis.
+
+
+
+Quedo al pendiente de sus comentarios o de cualquier duda para el seguimiento.
+
+¡Muchas gracias y saludos!
+Opción seleccionada: Venta
+Correo Electrónico: lidia.lau@coppel.com
+Teléfono/Extensión: 0
+Detalle de la ubicación: 
+Lugar de Trabajo: HO; Nivel o piso: ; Módulo: ; Número de posición: 0; Caja: ;",Lidia Aracely Lau Valenzuela,Lidia Aracely Lau Valenzuela,Edgar Roberto Guzman Martinez,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,1 hora 24 minutos,,,0,,1,0,13/11/2026 11:36:28,13/11/2026 11:36:27,13/11/2026 13:01:18,16/11/2026 13:11:34,Terceros y Aplicaciones,"Problema:
+No se pudieron agregar SKUs de la categoría Ropa al carrito.
+
+Causa:
+Los productos no tenían categoría asignada al catálogo del sitio.
+
+Pasos de la resolución:
+ • Se revisó la incidencia reportada en el flujo del carrito.
+ • Se confirmó que los SKUs afectados no tenían categoría asignada.
+ • Se atendió la solicitud y se compartió la evidencia correspondiente.",,"13/11/2026 13:00:38 - Edgar Roberto Guzman Martinez (Comentarios)
+Le informo que su solicitud ha sido atendida. Adjunto la evidencia correspondiente para su revisión.
+
+Para cualquier consulta o aclaración adicional, quedo a su disposición. Puede contactarme a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com
+
+Saludos cordiales
+
+13/11/2026 11:48:36 - Edgar Roberto Guzman Martinez (Comentarios)
+Tras revisar el caso, confirmamos que la falla se debe a que los productos no tienen una categoría asignada (Error: """"is unknown, offline or not assigned to the site catalog""""). Actualmente estamos trabajando en la solución.
+
+Resumen de casos detectados: 385
+
+Anexo las evidencias con el detalle completo.
+
+13/11/2026 11:45:14 - Edgar Roberto Guzman Martinez (Comentarios)
+Buen día
+
+Mi nombre es Edgar Roberto Guzmán Martínez, del equipo de Publicación y Contenido en Operaciones IT (Eje Retail), y seré quien dé seguimiento a su solicitud.
+
+Le estaré compartiendo actualizaciones conforme el caso avance. Si tiene alguna consulta o aclaración en el intermedio, quedo a su disposición a través de:
+
+💬 Google Chat: edgar.guzman@coppel.com"

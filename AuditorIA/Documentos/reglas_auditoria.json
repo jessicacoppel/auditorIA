@@ -1,0 +1,122 @@
+{
+  "configuracion_general": {
+    "peso_categorias": 0.90,
+    "peso_backlog": 0.10,
+    "regla_backlog": "Si existen tickets en backlog con más de 3 semanas de creación, se pierde el 10% completo.",
+    "semaforo": [
+      { "nivel": "Verde", "min": 95.0, "max": 100.0 },
+      { "nivel": "Amarillo", "min": 85.0, "max": 94.99 },
+      { "nivel": "Rojo", "min": 0.0, "max": 84.99 }
+    ]
+  },
+  "categorias": [
+    {
+      "id": "prioridad",
+      "nombre": "Prioridad Correcta",
+      "peso": 0.20,
+      "tipo_evaluacion": "regla_datos",
+      "criterio_exito": "La prioridad corresponde con la afectación y estado de la actividad.",
+      "hallazgos": [
+        "No se asignó la prioridad correcta"
+      ]
+    },
+    {
+      "id": "oferta",
+      "nombre": "Oferta Correcta",
+      "peso": 0.20,
+      "tipo_evaluacion": "regla_datos",
+      "criterio_exito": "Se validó y actualizó la oferta en que se encuentra el ticket.",
+      "hallazgos": [
+        "No se asignó la oferta adecuada"
+      ]
+    },
+    {
+      "id": "comunicacion",
+      "nombre": "Comunicación Adecuada con el Cliente",
+      "peso": 0.10,
+      "tipo_evaluacion": "analisis_texto_ia",
+      "criterio_exito": [
+        "Saludo cordial inicial en máximo 1 hora desde la asignación.",
+        "Comentario con estatus o avance al finalizar la jornada.",
+        "Respuestas claras a todas las dudas del cliente.",
+        "Solución clara, completa y con evidencia de análisis/diagnóstico.",
+        "Si aplica, especificar en la solución que la causa raíz será buscada en Folio Problema (FP).",
+        "Justificación agregada si hubo cambio de oferta."
+      ],
+      "hallazgos": [
+        "No se incluyó saludo inicial",
+        "No se incluyó saludo inicial dentro del tiempo establecido",
+        "No se agregó estatus o avance del día",
+        "No respondió las inquietudes/preguntas del cliente",
+        "No colocó una solución clara y completa",
+        "No se especificó en la solución que la solución raíz será buscada en FP",
+        "No se incluyó evidencia del análisis y diagnóstico",
+        "No se agregó comentario de justificación de cambio de oferta",
+        "No ejecuta una estructura adecuada en el seguimiento",
+        "El agente no dio seguimiento después que el ticket fue solucionado"
+      ]
+    },
+    {
+      "id": "sla",
+      "nombre": "SLA Correcto",
+      "peso": 0.20,
+      "tipo_evaluacion": "regla_datos",
+      "criterio_exito": "Ticket solucionado dentro del tiempo de resolución establecido en ServiceNow.",
+      "hallazgos": [
+        "No se cumplió con el SLA establecido para el ticket"
+      ]
+    },
+    {
+      "id": "cliente_agente",
+      "nombre": "Asignación de Cliente-Agente",
+      "peso": 0.05,
+      "tipo_evaluacion": "regla_datos",
+      "criterio_exito": "caller_id debe ser distinto a assigned_to (el agente no puede ser cliente en tickets creados por él mismo).",
+      "hallazgos": [
+        "El agente funge como cliente al mismo tiempo"
+      ]
+    },
+    {
+      "id": "cambios_estado",
+      "nombre": "Cambios de Estado Correctos",
+      "peso": 0.10,
+      "tipo_evaluacion": "hibrido",
+      "criterio_exito": [
+        "Todo cambio de estatus tiene comentario de justificación válido.",
+        "Estado 'Esperando al cliente' solo se usa solicitando retroalimentación válida.",
+        "Estado 'Esperando por entidad externa/interna' tiene justificación válida.",
+        "El folio debe estar asignado antes de solucionarse."
+      ],
+      "hallazgos": [
+        "Pausó el ticket 'Esperando por Entidad Externa' sin comentario de justificación",
+        "Pausó el ticket 'Esperando por Entidad Interna' sin una justificación válida",
+        "Pausó el ticket 'Esperando al cliente' sin solicitar información válida",
+        "Se solucionó el folio sin haber sido asignado anteriormente",
+        "No se cambió estatus a 'Esperando una fecha'"
+      ]
+    },
+    {
+      "id": "relaciones",
+      "nombre": "Relaciones de Tickets",
+      "peso": 0.15,
+      "tipo_evaluacion": "hibrido",
+      "criterio_exito": [
+        "Relacionado con Folio Problema (problem_id) o Incidente Mayor si aplica.",
+        "Si es candidato a problema, incluir dictamen técnico y fecha de envío al equipo de Gestión de Problemas."
+      ],
+      "hallazgos": [
+        "No relacionó con el folio problema correspondiente",
+        "No relacionó con ticket de Incidente Mayor",
+        "No relacionó con ticket relacionado para llegar a la solución",
+        "No relacionó con ticket padre"
+      ]
+    }
+  ],
+  "flujo_operativo": {
+    "escalamiento_ecommerce": [
+      "Mesa de Ayuda levanta CI -> Orquestador identifica si es eCommerce.",
+      "Si es eCommerce: clasifica y registra folio en Redmine -> asigna a célula -> Ing. Soporte analiza, da fecha aproximada de terminación, resuelve y documenta.",
+      "Comenta en CI/folio que se resolvió y espera VoBo del cliente para cerrar CI."
+    ]
+  }
+}

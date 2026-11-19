@@ -1,0 +1,164 @@
+﻿equipo_auditoria,fecha_asignacion_agente,number,state,active,short_description,description,caller_id,opened_by,assigned_to,assignment_group,priority,impact,urgency,severity,u_estado_de_la_actividad,business_service,u_area,u_vertical,category,subcategory,u_subcategory_2,u_subcategory_3,u_subcategory_4,made_sla,business_duration,problem_id,parent_incident,child_incidents,origin_id,reassignment_count,reopen_count,sys_created_on,opened_at,resolved_at,closed_at,close_code,close_notes,cause,comments_and_work_notes
+Checkout & Funcionalidades,05/11/2026 18:26:43,INC0109868,Cerrado,falso,La dirección que ingresaste no es valida. Intenta de nuevo con otra Please select Country Code,"90166306 JAYRO JIMENEZ VILLALOBOS<ASESOR DE VENTAS> de tienda 6801 se comunica reportando problemas para hacer ventas R de motos a su tienda 6801 , ya que al seleccionar su tienda para la entrega y dar click en ""Ir a formas de pago"" arroja el error ""La dirección que ingresaste no es valida. Intenta de nuevo con otra Please select Country Code"", se hace la prueba en dos micro diferente y presenta el mismo problema, ip 10.133.196.170 y 10.133.196.171.",Jayro Jimenez Villalobos,Christian Neriz Burgos,Esteban De Jesus Lopez Aguilar,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,23 Horas 55 minutos,,,0,,1,0,05/11/2026 17:56:27,05/11/2026 17:43:37,10/11/2026 17:39:26,13/11/2026 18:11:03,Infraestructura y Conectividad,"Causa raíz:
+El problema se debió a un error al seleccionar la dirección de entrega, lo que generó un mensaje de error al intentar avanzar a los formas de pago. 
+
+Pasos de la resolución:
+- Se cargó de nuevo el XML de la tienda, lo que permitió resolver el problema y permitir avanzar al elegir la opción de recolección en la tienda.",,"10/11/2026 15:31:11 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Hola buen día
+
+Se cargó de nuevo el XML de la tienda y esto permitió que ya pudiera avanzar al elegir recoge en esa tienda, favor de validar dee nuevo
+
+Saludos!
+
+06/11/2026 09:38:56 - Esteban De Jesus Lopez Aguilar (Comentarios)
+👋 Hola Buen día! 😃
+
+
+Mi nombre es Esteban López del Eje Retail🛒de Operaciones IT y te estaré apoyando en el seguimiento de este folio.🤝"
+Checkout & Funcionalidades,05/11/2026 17:09:32,INC0108902,Cerrado,falso,Sin cobertura en este CP 70440,"96089369 Lizbeth Lopez Lopez de tienda 7855 se comunica reportando problemas en coppel.com ya que al generar una verta no permite proceder a avanzar y realizar la venta ya que marca sin cobertura en este cp, sin embargo es una colonia a la que anteriormente ya han entregado productos el cp. es el 70440
+
+Correo Electrónico: c96089369@coppel.com
+Teléfono/Extensión: 285514
+Lugar de Trabajo: coppel tlacolula; Nivel o piso: PB; Módulo: COPPEL.COM TIENDA; Número de posición: 1; Caja: 1;",Lizbeth Lopez Lopez,Christian Neriz Burgos,Esteban De Jesus Lopez Aguilar,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Coppel.com,Ecommerce,Clientes y Canales,Coppel.com,Ventas en coppel.com,Problemas al finalizar orden de compra,Falla,verdadero,7 Horas 24 minutos,,,0,,1,0,05/11/2026 17:08:35,05/11/2026 16:40:09,06/11/2026 16:04:18,09/11/2026 16:11:12,Capacidad de Sistemas,"Causa raíz:
+El código postal 70440 fue reportado inicialmente como sin cobertura en coppel.com, aunque se había entregado productos a esa colonia con anterioridad. 
+
+Pasos de la resolución:
+- Se corrigió el código postal reportado, actualizando la información en el sistema de coppel.com para que el CP 70440 aparezca como válido y permita avanzar en el proceso de venta.",,"06/11/2026 16:02:47 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Hola buen día
+
+Se corrigió el CP reportado, ya aparece en tienda coppel.com , favor de validar 
+
+Quedo al tanto de cualquier duda
+
+Saludos!
+
+
+05/11/2026 17:38:47 - Esteban De Jesus Lopez Aguilar (Comentarios)
+👋 Hola Buen día! 😃
+
+
+Mi nombre es Esteban López del Eje Retail🛒de Operaciones IT y te estaré apoyando en el seguimiento de este folio.🤝"
+Checkout & Funcionalidades,13/11/2026 13:26:55,INC0192658,Resuelto,verdadero,Catalogos de tienda marcan código postal no cuenta con cobertura T-262,Buen día Gte. de tienda Heidy Sanchez reporta que en los kioskos de catálogo al momento de colocar dirección para ventas online marca error en el C.P. donde el sistema marca que no se cuenta con cobertura siendo que es dentro de los alcances de las rutas por distribución. Esto ocurre en varios equipos con varios C.P. (IP de referencia 10.48.75.165),Heidy Sanchez Hernandez,Alfonso Ivan Rodriguez Torres,Esteban De Jesus Lopez Aguilar,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla en domicilio de compras,Falla,verdadero,5 Horas 54 minutos,,,0,,0,0,13/11/2026 13:13:31,13/11/2026 13:05:53,14/11/2026 18:30:13,,Terceros y Aplicaciones,"Problema:
+Los kioscos de catálogo muestran error de cobertura al capturar ciertos códigos postales.
+
+Causa:
+El sistema validó incorrectamente los códigos postales reportados como sin cobertura.
+
+Pasos de la resolución:
+ • Se revisó la disponibilidad de cobertura para los códigos postales reportados.
+ • Se confirmó que ambos códigos postales aparecen disponibles en coppel.com.",,"14/11/2026 18:29:53 - Esteban De Jesus Lopez Aguilar (Comentarios)
+buenas tardes
+
+los dos CP reportados si aparecen en coppel.com
+
+Saludos!
+
+13/11/2026 14:18:17 - Heidy Sanchez Hernandez (Comentarios)
+39715 Y 39713
+
+13/11/2026 13:40:43 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Hola buen día
+
+Me comparten los CP con los que se presenta el detalle?
+
+Quedo en espera de sus respuestas
+
+13/11/2026 13:39:23 - Esteban De Jesus Lopez Aguilar (Comentarios)
+👋 Hola Buen día! 😃
+
+
+Mi nombre es Esteban López del Eje Retail🛒de Operaciones IT y te estaré apoyando en el seguimiento de este folio.🤝
+
+13/11/2026 13:28:31 - Lidia Aracely Lau Valenzuela (Notas de trabajo)
+Se actualiza prioridad"
+Checkout & Funcionalidades,14/11/2026 16:14:32,INC0211081,Resuelto,verdadero,Transacción no autorizada,"Tienda reporta que al intentar realizar venta a cliente 90001 con correo: tacamazaira@gmail.com
+Terminación  de tarjeta bancaria: 6397",Jhonatan Hernandez Osorio,Rafael Guadalupe Quijada Estrella,Esteban De Jesus Lopez Aguilar,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,3. Funcionalidad erronea,Coppel.com,Coppel.com en Tienda,Ecommerce,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,0,Interacción: IMS0060679,1,0,14/11/2026 12:57:38,14/11/2026 12:57:38,14/11/2026 17:21:37,,Terceros y Aplicaciones,"Problema:
+La tienda no pudo completar la venta por un rechazo de autorización en la transacción.
+
+Causa:
+Cybersource rechazó la autorización de la transacción.
+
+Pasos de la resolución:
+ • Se vinculó el caso al folio de transacción no autorizada.
+ • Se solicitó el correo del cliente para continuar con la revisión.
+ • Se indicó que la compra se realice con otro medio de pago.",,"14/11/2026 17:20:35 - Esteban De Jesus Lopez Aguilar (Comentarios)
+hola buen día
+
+Revisando el caso , el rechazo fue por cybersource, favor de indicar que se realice la compra con otro medio
+
+Saludos! 
+
+
+
+14/11/2026 13:34:23 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Comentario copiado del incidente principal: En espera de informacion faltante para la revision de los casos
+
+14/11/2026 13:33:17 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Comentario copiado del incidente principal: hola buen día
+
+Es necesario el correo del cliente para verificar lo sucedido
+
+Saludos!
+
+14/11/2026 13:22:39 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Comentario copiado del incidente principal: 👋 Hola Buen día! 😃
+
+
+Mi nombre es Esteban López del Eje Retail🛒de Operaciones IT y te estaré apoyando en el seguimiento de este folio.🤝
+
+
+Cualquier duda o comentario
+Chat de google/Correo📩 : Esteban.lopez@coppel.com
+
+14/11/2026 13:05:55 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Se liga a folio, transaccion no autorizada.
+
+14/11/2026 12:57:38 - Rafael Guadalupe Quijada Estrella (Notas de trabajo)
+Incidente creado a partir de la interacción IMS0060679"
+Checkout & Funcionalidades,14/11/2026 12:57:46,INC0210773,Cancelado,falso,Transaccion no autorizada,"96679611 ADRIANA RAMIREZ <GERENTE TITULAR> tienda 527 solicita apoyo con ventas en línea al momento de pagar la compra las compras de clientes 90001 estas quedan rechazadas con cualquier tc que se utilice, arroja ""Transaccion no autorizada"" IP 10.42.50.106",Guillermina Caballero Morales,Guillermina Caballero Morales,Esteban De Jesus Lopez Aguilar,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,2. Servicio degradado,4 - Usuario / Cliente,3 - Baja,"4. Sin afectación, puede seguir operando",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla al finalizar la compra,Falla,verdadero,0 segundos,,,2,,1,0,14/11/2026 12:51:18,14/11/2026 12:46:38,,14/11/2026 18:00:04,,,,"14/11/2026 13:34:22 - Esteban De Jesus Lopez Aguilar (Comentarios)
+En espera de informacion faltante para la revision de los casos
+
+14/11/2026 13:33:16 - Esteban De Jesus Lopez Aguilar (Comentarios)
+hola buen día
+
+Es necesario el correo del cliente para verificar lo sucedido
+
+Saludos!
+
+14/11/2026 13:22:38 - Esteban De Jesus Lopez Aguilar (Comentarios)
+👋 Hola Buen día! 😃
+
+
+Mi nombre es Esteban López del Eje Retail🛒de Operaciones IT y te estaré apoyando en el seguimiento de este folio.🤝
+
+
+Cualquier duda o comentario
+Chat de google/Correo📩 : Esteban.lopez@coppel.com"
+Checkout & Funcionalidades,13/11/2026 12:50:19,INC0191519,Resuelto,verdadero,código postal no esta dado de alta,"tienda 1022 presenta detalle al realizar compra por coppel.com ya que al colocar el código postal 94237 indica mensaje ""Actualmente no contamos con coberturaen este Código postal,. Intenta con otro"" favor de apoyar",Jesus Galindo Sanchez,Karla Melissa Gerardo Moreno,Esteban De Jesus Lopez Aguilar,231081-CLCN GESTION DE TI-OMNICANAL WEB SOPORTE,3 - Media,1. Servicio no disponible,4 - Usuario / Cliente,3 - Baja,"2. Intermitente, lento o degradado",Coppel.com,Tienda,Tienda,Operación Comercial y Retail (Tiendas),Operaciones IT Omnicanal,Coppel.com Retail,Falla en domicilio de compras,Falla,verdadero,6 Horas 25 minutos,,,0,,1,0,13/11/2026 12:38:57,13/11/2026 12:34:27,15/11/2026 09:17:14,,Capacidad de Sistemas,"Problema:
+La tienda 1022 presentó un error al comprar en coppel.com por falta de cobertura del código postal.
+
+Causa:
+El código postal 94237 no estaba dado de alta en coppel.com.
+
+Pasos de la resolución:
+ • Se dio de alta el código postal en coppel.com.
+ • Se solicitó validación al analista de Veracruz.
+ • Se informó al usuario que el código postal ya quedó registrado.",,"15/11/2026 09:16:48 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Hola buen día
+
+Ya quedó dado de alta el CP en coppel.com, favor de validar
+
+Saludos!
+
+13/11/2026 13:16:08 - Esteban De Jesus Lopez Aguilar (Comentarios)
+Se manda mensaje al analista de veracruz
+
+Quedamos en espera de respuesta
+
+Saludos!
+
+13/11/2026 13:15:08 - Esteban De Jesus Lopez Aguilar (Comentarios)
+👋 Hola Buen día! 😃
+
+
+Mi nombre es Esteban López del Eje Retail🛒de Operaciones IT y te estaré apoyando en el seguimiento de este folio.🤝"
